@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "objective_evaluations": 216,
+  "training_episode_rows": 17280,
+  "shared_initial_vectors_and_objectives_verified": true,
+  "training_only_verified": true,
+  "episode_objectives_recomputed": true,
+  "checkpoint_resume_test": "see tests/test_multicross_search.py",
+  "validation_evaluated": false,
+  "test_evaluated": false
+}
