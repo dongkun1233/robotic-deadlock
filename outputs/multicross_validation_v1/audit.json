@@ -1,0 +1,11 @@
+{
+  "split": "validation",
+  "episodes": 400,
+  "expected": 400,
+  "duplicate_keys": 0,
+  "replay_verified": true,
+  "selected_on_training_only": true,
+  "test_evaluated": false,
+  "scenario_bootstrap_note": "Resamples unique scenario pairs within four cases after averaging the three optimizer seeds.",
+  "elapsed_seconds": 4.307266198999969
+}
