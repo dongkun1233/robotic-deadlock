@@ -1,0 +1,1 @@
+Full four-variable search under feasible-candidate admission v2. See docs/multicross_feasible_v2_protocol.md. All 216 objective evaluations and 17,280 raw episodes are retained. The gzip archive replaces individual raw CSV files in Git; audit_multicross_training.py restores them when needed. Final test not used.

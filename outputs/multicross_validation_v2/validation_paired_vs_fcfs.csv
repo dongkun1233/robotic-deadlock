@@ -1,0 +1,4 @@
+algorithm,unique_validation_scenarios,mean_difference_vs_fcfs,bootstrap95_lower,bootstrap95_upper,timeout_affected,interpretation
+basic,40,-0.20833333333333287,-0.8999999999999992,0.45000000000000073,False,Scenario uncertainty conditional on these three fitted seeds; optimizer uncertainty is not fully estimated.
+bo,40,0.45833333333333337,-0.08333333333333356,0.9916666666666668,False,Scenario uncertainty conditional on these three fitted seeds; optimizer uncertainty is not fully estimated.
+pso,40,1.041666666666667,-0.025208333333334308,2.041666666666667,False,Scenario uncertainty conditional on these three fitted seeds; optimizer uncertainty is not fully estimated.

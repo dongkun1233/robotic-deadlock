@@ -1,0 +1,1 @@
+Training-selected weights evaluated on 40 shared development/validation scenarios. All 400 episodes complete. Same validation cases used for v1: this is not a fresh final test. Paired confidence intervals resample scenarios after averaging optimizer seeds. No algorithm establishes superiority over feasible FCFS here. See docs/multicross_feasible_v2_protocol.md.

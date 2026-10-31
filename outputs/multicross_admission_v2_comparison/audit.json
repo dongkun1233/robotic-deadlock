@@ -1,0 +1,10 @@
+{
+  "split": "train",
+  "failed_v1_episodes": 23,
+  "failure_replays_completed": 23,
+  "fixed_weight_episodes": 800,
+  "fixed_weight_timeouts": 0,
+  "missions_verified": true,
+  "feasible_admission_asserted": true,
+  "test_evaluated": false
+}

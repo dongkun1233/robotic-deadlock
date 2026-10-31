@@ -131,7 +131,13 @@ def main():
     parser.add_argument('--initial-count',type=int,default=6)
     parser.add_argument('--seeds',default='101,202,303')
     parser.add_argument('--models',default='full')
+    parser.add_argument('--simulator',choices=['v1','v2'],default='v1')
     args = parser.parse_args()
+    global sim
+    original_sim = sim
+    if args.simulator=='v2':
+        from rware import agv_multicross_policy_v2
+        sim = agv_multicross_policy_v2
     seeds = [int(x) for x in args.seeds.split(',')]
     model_names = args.models.split(',')
     model_features = {'full':FEATURES}
@@ -141,7 +147,7 @@ def main():
     if args.initial_count<2 or args.budget<args.initial_count:
         raise ValueError('budget >= initial-count >= 2 required')
     manifest = json.loads(args.manifest.read_text(encoding='utf-8'))
-    for module in (layout_module,sim):
+    for module in (layout_module,original_sim):
         name = Path(module.__file__).name
         actual = hashlib.sha256(Path(module.__file__).read_bytes()).hexdigest()
         if manifest['source_sha256'].get(name)!=actual:
@@ -164,6 +170,8 @@ def main():
         'split':'train','training_scenarios':len(scenarios),'capacity':manifest['capacity'],
         'max_steps':manifest['max_steps'],'objective':'incomplete_scenarios*(max_steps+1)+mean_total_steps',
         'versions':{'python':sys.version.split()[0],'numpy':np.__version__}}
+    config['simulator']=args.simulator
+    config['simulator_source_sha256']=hashlib.sha256(Path(sim.__file__).read_bytes()).hexdigest()
     checkpoint = args.output_dir/'checkpoint.json'
     if checkpoint.exists():
         state = json.loads(checkpoint.read_text())

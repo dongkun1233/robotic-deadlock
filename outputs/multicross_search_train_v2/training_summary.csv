@@ -1,0 +1,4 @@
+model,algorithm,optimizer_seeds,mean_best_training_steps,min_best_training_steps,max_best_training_steps,selected_incomplete_scenarios
+full,basic,3,83.64583333333333,83.5125,83.8625,0
+full,bo,3,83.82916666666667,83.525,84.325,0
+full,pso,3,83.95833333333334,83.6375,84.5875,0

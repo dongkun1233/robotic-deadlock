@@ -27,12 +27,21 @@ def main():
     p.add_argument('--manifest',type=Path,required=True)
     p.add_argument('--training-dir',type=Path,required=True)
     p.add_argument('--output-dir',type=Path,required=True)
+    p.add_argument('--simulator',choices=['v1','v2'],default='v1')
     args=p.parse_args()
+    global sim
+    original_sim=sim
+    if args.simulator=='v2':
+        from rware import agv_multicross_policy_v2
+        sim=agv_multicross_policy_v2
     args.output_dir.mkdir(parents=True,exist_ok=False)
     manifest=json.loads(args.manifest.read_text())
     checkpoint=json.loads((args.training_dir/'checkpoint.json').read_text())
+    assert checkpoint['config'].get('simulator','v1')==args.simulator
+    if args.simulator=='v2':
+        assert checkpoint['config']['simulator_source_sha256']==hashlib.sha256(Path(sim.__file__).read_bytes()).hexdigest()
     assert checkpoint['config']['manifest_sha256']==hashlib.sha256(args.manifest.read_bytes()).hexdigest()
-    for module in (layout_module,sim):
+    for module in (layout_module,original_sim):
         name=Path(module.__file__).name
         assert hashlib.sha256(Path(module.__file__).read_bytes()).hexdigest()==manifest['source_sha256'][name]
     scenarios=[s for s in manifest['scenarios'] if s['split']=='validation']
@@ -100,6 +109,7 @@ def main():
                 learning.append({'algorithm':algorithm,'optimizer_seed':seed,'budget':budget,'best_training_steps':chosen['mean_total_steps'],'incomplete':chosen['incomplete'],'selected_evaluation':chosen['evaluation']})
     write_csv(args.output_dir/'training_learning_checkpoints.csv',learning)
     audit={'split':'validation','episodes':len(all_rows),'expected':len(policies)*len(scenarios),
+        'simulator':args.simulator,
         'duplicate_keys':len(all_rows)-len({(r['algorithm'],r['optimizer_seed'],r['scenario_id']) for r in all_rows}),
         'replay_verified':True,'selected_on_training_only':True,'test_evaluated':False,
         'scenario_bootstrap_note':'Resamples unique scenario pairs within four cases after averaging the three optimizer seeds.',

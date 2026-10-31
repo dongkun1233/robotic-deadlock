@@ -1,0 +1,1 @@
+Controlled training-only rule check: same missions and v1-selected weights on v2, without reoptimization. All 23 previously timed-out evaluation episodes (three unique scenarios) completed. Nine selected weight sets plus FCFS on 80 scenarios produced 800 complete runs. Original failures and v1 training raw data remain in the preserved v1 folders. No final-test simulation.

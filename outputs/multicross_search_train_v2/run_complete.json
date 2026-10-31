@@ -1,0 +1,12 @@
+{
+  "completed": true,
+  "trials": 216,
+  "simulation_runs": 17280,
+  "baseline": {
+    "mean_total_steps": 84.175,
+    "incomplete": 0
+  },
+  "split": "train",
+  "validation_evaluated": false,
+  "test_evaluated": false
+}
