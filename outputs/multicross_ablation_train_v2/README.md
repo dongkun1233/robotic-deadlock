@@ -1,0 +1,1 @@
+Four leave-one-feature-out models, three algorithms, three seeds, 24 objective evaluations each on 80 training scenarios: 864 evaluations / 69,120 raw episodes, all complete. Full-model runs are preserved in multicross_search_train_v2. Archive restores individual raw CSVs through audit_multicross_training.py. Final test not used.

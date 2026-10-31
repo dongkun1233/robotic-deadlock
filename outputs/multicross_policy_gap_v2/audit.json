@@ -1,0 +1,8 @@
+{
+  "training_only": true,
+  "test_evaluated": false,
+  "episodes": 640,
+  "pure_waiting_fcfs_identical_episodes": 80,
+  "manifest_sha256": "90c2eb4e9a56d8ce2d8a2dea444190e05e613c6a565894636448e802f29730f6",
+  "note": "Repeated decision attempts are descriptive counts, not independent samples. BO weights selected under v2 are held fixed across rules."
+}

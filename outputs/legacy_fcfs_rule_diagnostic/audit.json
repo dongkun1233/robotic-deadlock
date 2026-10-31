@@ -1,0 +1,22 @@
+{
+  "strict_first": 65.4625,
+  "feasible_first": 58.2175,
+  "episodes": 800,
+  "unique_training_scenarios": 400,
+  "incomplete_runs": 0,
+  "test_evaluated": false,
+  "scenario_file_sha256": "3d379904c9af4489ada1f34484b166616795a2808176dc7c21d3aea674a03e7d",
+  "purpose": "Diagnostic rule-only comparison, not reproduction of every historical reported experiment.",
+  "original_scenario_git_blob": "3b606c2555d0eb2e3cb57eed8fc70cf5b49d3634",
+  "original_source_commit": "0375300c72dd7e6fd90022ea557a6cf099a1211b",
+  "source_sha256": {
+    "rware/fcfs_cross_simulation.py": "f6b1e2d0304e8fc5bfc3a685baa73da04f9426110524a436eb469d73553c2692",
+    "rware/agv_path_planning.py": "e9262b275ebe652c02d1c5e92968d06fa831c3eb93b2e8db91b3804f339e1c61",
+    "rware/agv_layouts.py": "817dce8bbfac5513939593ae868e5e88c5feaac8e35d73e3506f26894a93b7d0",
+    "rware/agv_topology.py": "dcd6a75f272cec117fd06a305b8cd4521e286ae08f9d2a4beea6afdbf84421e5",
+    "rware/agv_types.py": "5d6a51c3b932277b1975c318c7641c59cb7832e79064e0d650bfbf603b56163a",
+    "scripts/diagnose_legacy_fcfs_rule.py": "8f960049463bbfe221e7320bb73ffd61621b357d2518e29cbfe7fd3bd8d005c2"
+  },
+  "scenario_file_note": "Execution input had one extra final blank line from file transfer. Parsed rows are unchanged; original byte-exact scenario file was subsequently restored and its SHA256 is original_scenario_sha256.",
+  "original_scenario_sha256": "0f58c3d2bf3448bcb981bc9c404f5a59e5a9de37f59efaea39591e1433bd7827"
+}

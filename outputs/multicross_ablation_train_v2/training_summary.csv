@@ -1,0 +1,13 @@
+model,algorithm,optimizer_seeds,mean_best_training_steps,min_best_training_steps,max_best_training_steps,selected_incomplete_scenarios
+without_waiting,basic,3,83.95416666666667,83.9,84.0125,0
+without_waiting,bo,3,83.9,83.9,83.9,0
+without_waiting,pso,3,83.90833333333333,83.9,83.9125,0
+without_maneuver,basic,3,84.10833333333333,84.0375,84.175,0
+without_maneuver,bo,3,84.04166666666667,84.025,84.05,0
+without_maneuver,pso,3,84.1,84.025,84.175,0
+without_exit_competition,basic,3,83.875,83.525,84.075,0
+without_exit_competition,bo,3,83.58333333333333,83.5125,83.625,0
+without_exit_competition,pso,3,83.7125,83.5125,84.05,0
+without_path_conflict,basic,3,83.60416666666667,83.525,83.6625,0
+without_path_conflict,bo,3,83.54583333333333,83.525,83.5875,0
+without_path_conflict,pso,3,83.82916666666667,83.5875,84.275,0

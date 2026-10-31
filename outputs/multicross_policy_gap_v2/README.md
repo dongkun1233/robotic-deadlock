@@ -1,0 +1,1 @@
+Training-only eligibility diagnostics: FCFS and three v2-selected BO weights under both rules, 640 runs plus 80 pure-waiting equivalence checks. Repeated decision counts are descriptive. validation_algorithm_gap.csv analyzes saved validation only, without simulating any final test.

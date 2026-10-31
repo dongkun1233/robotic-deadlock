@@ -1,0 +1,9 @@
+rule,algorithm,optimizer_seed,scenarios,mean_steps,timeouts,queued_competition,eligible_competition,single_eligible,none_eligible,blocked_with_feasible_alternative,eligible_same_score,eligible_varies_waiting,eligible_varies_maneuver,eligible_varies_exit_competition,eligible_varies_path_conflict
+strict_first,fcfs,baseline,80,87.0375,0,9563,3067,6344,9488,1849,219,2533,2343,712,1026
+strict_first,bo,101,80,86.5875,0,9477,3079,6265,9633,1782,158,2581,2387,728,996
+strict_first,bo,202,80,87.65,0,9624,3052,6570,9302,2060,166,2549,2313,669,973
+strict_first,bo,303,80,86.925,0,9182,2846,6209,9746,1493,142,2412,2158,640,899
+feasible_first,fcfs,baseline,80,84.175,0,7868,1950,5612,10137,0,137,1589,1536,258,376
+feasible_first,bo,101,80,83.6375,0,7836,1961,5601,10153,0,102,1614,1555,272,363
+feasible_first,bo,202,80,84.325,0,7795,1944,5618,9997,0,105,1590,1534,268,391
+feasible_first,bo,303,80,83.525,0,7857,1931,5631,10215,0,106,1590,1515,259,357

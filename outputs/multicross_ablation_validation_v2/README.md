@@ -1,0 +1,1 @@
+Reoptimized ablation on the same 40 development/validation scenarios, three optimizer seeds. 1,440 new episodes plus 400 reused full/FCFS rows = 1,840. All complete, zero duplicate keys. Nominal bootstrap intervals are exploratory and unadjusted for multiple comparisons; no final-test claim.

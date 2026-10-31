@@ -1,0 +1,5 @@
+validation_dir,comparison,mean_difference,ci_lower,ci_upper,unique_validation_scenarios,interpretation
+multicross_validation_v1,bo_minus_random,-0.4166666666666667,-1.0333333333333332,0.2416666666666666,40,"Exploratory unadjusted scenario bootstrap, conditional on fitted seeds; no optimizer-population inference."
+multicross_validation_v1,pso_minus_random,0.5083333333333333,-0.14166666666666666,1.2416666666666667,40,"Exploratory unadjusted scenario bootstrap, conditional on fitted seeds; no optimizer-population inference."
+multicross_validation_v2,bo_minus_random,0.6666666666666666,0.2416666666666667,1.1166666666666667,40,"Exploratory unadjusted scenario bootstrap, conditional on fitted seeds; no optimizer-population inference."
+multicross_validation_v2,pso_minus_random,1.25,0.475,1.975,40,"Exploratory unadjusted scenario bootstrap, conditional on fitted seeds; no optimizer-population inference."

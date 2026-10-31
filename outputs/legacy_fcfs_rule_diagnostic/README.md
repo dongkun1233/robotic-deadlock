@@ -1,0 +1,1 @@
+Rule-only diagnostic on the existing 400 single-cross training cases, 800 complete runs. FeasibleFCFS reorders the first compatible candidate before invoking original FCFS admission; no scoring. This is not a reproduction of every historical BO/PSO result. See audit.json for source hashes and transfer newline note.

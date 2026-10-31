@@ -1,0 +1,17 @@
+{
+  "expected_rows": 1840,
+  "actual_rows": 1840,
+  "reused_full_and_fcfs_rows": 400,
+  "new_ablation_rows": 1440,
+  "duplicate_keys": 0,
+  "incomplete_runs": 0,
+  "training_only_weight_selection": true,
+  "test_evaluated": false,
+  "validation_reuse_note": "Development set previously inspected; not a new independent test.",
+  "full_raw_sha256": "c5a5e4832e47dbb943acbbf7063ed18aa99a012740376f3b6b5b0b40e3293519",
+  "elapsed_seconds": 12.653188745999614,
+  "summaries_recomputed": true,
+  "reused_rows_verified_against_original": true,
+  "removed_weights_zero_in_all_864_trials": true,
+  "validation_script_sha256": "6d0f08b1463ea1a8754b529f662e02cbb75f5cfc3e1f600d7b12eca4e5f68979"
+}
