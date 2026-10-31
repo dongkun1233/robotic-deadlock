@@ -1,0 +1,21 @@
+{
+  "workers": [
+    "/workspace/scratch/9e5f623393d6/multicross_work/outputs/anchored_seed_101",
+    "/workspace/scratch/9e5f623393d6/multicross_work/outputs/anchored_seed_202",
+    "/workspace/scratch/9e5f623393d6/multicross_work/outputs/anchored_seed_303",
+    "/workspace/scratch/9e5f623393d6/multicross_work/outputs/anchored_seed_404",
+    "/workspace/scratch/9e5f623393d6/multicross_work/outputs/anchored_seed_505"
+  ],
+  "optimizer_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "actual_baseline_episodes": 400,
+  "baseline_rows_retained": 80,
+  "objective_episodes": 86400,
+  "anchor_training_bound_verified": true,
+  "timing_note": "Concurrent seed jobs; wall times are descriptive, not a controlled speed comparison."
+}

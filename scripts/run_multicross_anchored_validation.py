@@ -98,7 +98,7 @@ def main():
         lo,hi=np.percentile(samples,[2.5,97.5])
         paired.append({'algorithm':algorithm,'unique_validation_scenarios':len(scenarios),'mean_difference_vs_fcfs':float(diffs.mean()),
             'bootstrap95_lower':float(lo) if not incomplete else '', 'bootstrap95_upper':float(hi) if not incomplete else '',
-            'timeout_affected':bool(incomplete),'interpretation':'Scenario uncertainty conditional on these three fitted seeds; optimizer uncertainty is not fully estimated.'})
+            'timeout_affected':bool(incomplete),'interpretation':'Scenario uncertainty conditional on the fitted optimizer seeds; optimizer uncertainty is not fully estimated.'})
     write_csv(args.output_dir/'validation_paired_vs_fcfs.csv',paired)
     learning=[]
     for algorithm in ('basic','bo','pso'):
@@ -112,7 +112,7 @@ def main():
         'simulator':args.simulator,
         'duplicate_keys':len(all_rows)-len({(r['algorithm'],r['optimizer_seed'],r['scenario_id']) for r in all_rows}),
         'replay_verified':True,'selected_on_training_only':True,'test_evaluated':False,
-        'scenario_bootstrap_note':'Resamples unique scenario pairs within four cases after averaging the three optimizer seeds.',
+        'scenario_bootstrap_note':'Resamples unique scenario pairs within four cases after averaging the fitted optimizer seeds.',
         'elapsed_seconds':time.perf_counter()-started}
     assert audit['episodes']==audit['expected'] and audit['duplicate_keys']==0
     (args.output_dir/'audit.json').write_text(json.dumps(audit,indent=2))

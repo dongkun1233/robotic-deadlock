@@ -1,0 +1,166 @@
+{
+  "protocol_commit": "30dce7e60b0360bbbb59388b1b1597f52f8943f6",
+  "manifest_sha256": "90c2eb4e9a56d8ce2d8a2dea444190e05e613c6a565894636448e802f29730f6",
+  "simulator_source_sha256": "a373b5608c5204551ff04100ecd49ce143282aff596b87870deb40f97a9bfebd",
+  "evaluator_sha256": "6043447eb7e5bee623a50ae00ede80278afa92bfcdf0fd185acdebc35d5454b8",
+  "policies": [
+    [
+      "fcfs",
+      "baseline",
+      null
+    ],
+    [
+      "basic",
+      "101",
+      {
+        "waiting": 0.6785300154600947,
+        "maneuver": 0.06640052229818638,
+        "exit_competition": -0.42732714011069123,
+        "path_conflict": -0.5937840550933221
+      }
+    ],
+    [
+      "bo",
+      "101",
+      {
+        "waiting": 0.25314074056915314,
+        "maneuver": 0.009000800574926214,
+        "exit_competition": 0.9588252669082502,
+        "path_conflict": -0.12842452488303685
+      }
+    ],
+    [
+      "pso",
+      "101",
+      {
+        "waiting": 0.6118353210956842,
+        "maneuver": 0.46295547995861197,
+        "exit_competition": 0.6185143119835003,
+        "path_conflict": 0.16961665398070294
+      }
+    ],
+    [
+      "basic",
+      "202",
+      {
+        "waiting": 0.6791603447009827,
+        "maneuver": 0.09917926625673593,
+        "exit_competition": 0.6747746251643615,
+        "path_conflict": 0.27126353342222975
+      }
+    ],
+    [
+      "bo",
+      "202",
+      {
+        "waiting": 0.3917071407819534,
+        "maneuver": 0.136495879909565,
+        "exit_competition": 0.8910145619876498,
+        "path_conflict": -0.18446528387232367
+      }
+    ],
+    [
+      "pso",
+      "202",
+      {
+        "waiting": 0.7743201129602977,
+        "maneuver": 0.04444382634164033,
+        "exit_competition": 0.14280116280157745,
+        "path_conflict": 0.6148666008719154
+      }
+    ],
+    [
+      "basic",
+      "303",
+      {
+        "waiting": 0.5343369495501298,
+        "maneuver": 0.14816181923506735,
+        "exit_competition": 0.8092754649311795,
+        "path_conflict": -0.19392091565078928
+      }
+    ],
+    [
+      "bo",
+      "303",
+      {
+        "waiting": 0.6588951414008066,
+        "maneuver": 0.2951117922286342,
+        "exit_competition": 0.6758323517583751,
+        "path_conflict": 0.1483807772009512
+      }
+    ],
+    [
+      "pso",
+      "303",
+      {
+        "waiting": 0.9425484839102422,
+        "maneuver": 0.0919699145406427,
+        "exit_competition": 0.20508129637179578,
+        "path_conflict": 0.24715491533925585
+      }
+    ],
+    [
+      "basic",
+      "404",
+      {
+        "waiting": 0.6547162953924675,
+        "maneuver": 0.06970064013910732,
+        "exit_competition": 0.7468916154977677,
+        "path_conflict": -0.0929586360210628
+      }
+    ],
+    [
+      "bo",
+      "404",
+      {
+        "waiting": 0.5976240167605543,
+        "maneuver": 0.25591978629929446,
+        "exit_competition": 0.7117050241306606,
+        "path_conflict": -0.2661325913876012
+      }
+    ],
+    [
+      "pso",
+      "404",
+      {
+        "waiting": 0.769189660501621,
+        "maneuver": 0.005642512582655985,
+        "exit_competition": 0.04478823268727352,
+        "path_conflict": 0.6374240679813605
+      }
+    ],
+    [
+      "basic",
+      "505",
+      {
+        "waiting": 0.4603442427772027,
+        "maneuver": 0.2652845462072091,
+        "exit_competition": 0.4553705439260616,
+        "path_conflict": 0.7143843191238185
+      }
+    ],
+    [
+      "bo",
+      "505",
+      {
+        "waiting": 0.6049153639610099,
+        "maneuver": 0.45171491890466403,
+        "exit_competition": 0.6444472887790509,
+        "path_conflict": 0.12132075860380301
+      }
+    ],
+    [
+      "pso",
+      "505",
+      {
+        "waiting": 0.45294637689057565,
+        "maneuver": 0.3117220303431737,
+        "exit_competition": 0.4646210059427644,
+        "path_conflict": 0.6941154632315605
+      }
+    ]
+  ],
+  "test_started": false,
+  "selection": "earliest training minimum; validation scores do not select methods or weights",
+  "selection_sha256": "f707085b44d63a1585ce571f9b963d540df0f356a37bd070851894f845b07e92"
+}

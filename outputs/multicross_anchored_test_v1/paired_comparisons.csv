@@ -1,0 +1,7 @@
+comparison,primary,mean_step_difference,scenario95_lower,scenario95_upper,two_way95_lower,two_way95_upper,permutation_p_conditional,holm_primary_p,unique_scenarios,optimizer_seeds,caveat
+basic_minus_fcfs,True,-0.09249999999999996,-0.6950000000000001,0.5175000000000001,-0.76,0.595,0.7809821901780982,1.0,80,5,Approximate intervals; conditional permutation assumes sign exchangeability. No equivalence or universal algorithm claim.
+bo_minus_fcfs,True,-0.09500000000000003,-0.7975,0.6050000000000001,-0.815,0.6225,0.8005219947800521,1.0,80,5,Approximate intervals; conditional permutation assumes sign exchangeability. No equivalence or universal algorithm claim.
+pso_minus_fcfs,True,-0.05499999999999998,-0.6599999999999999,0.5575,-0.7025,0.6350624999999991,0.8716612833871661,1.0,80,5,Approximate intervals; conditional permutation assumes sign exchangeability. No equivalence or universal algorithm claim.
+bo_minus_basic,False,-0.0025000000000000022,-0.24,0.2125,-0.44,0.4275,1.0,,80,5,Approximate intervals; conditional permutation assumes sign exchangeability. No equivalence or universal algorithm claim.
+pso_minus_basic,False,0.03750000000000001,-0.1325,0.215,-0.2325,0.3325,0.7169228307716923,,80,5,Approximate intervals; conditional permutation assumes sign exchangeability. No equivalence or universal algorithm claim.
+bo_minus_pso,False,-0.04,-0.255,0.1625,-0.4375,0.36,0.7307726922730773,,80,5,Approximate intervals; conditional permutation assumes sign exchangeability. No equivalence or universal algorithm claim.

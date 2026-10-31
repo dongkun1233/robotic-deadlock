@@ -1,0 +1,1 @@
+See docs/multicross_anchored_protocol_v1.md and docs/multicross_anchored_results_v1.md. Frozen five-seed, 72-evaluation, FCFS-anchor full-model comparison. All records retained; no validation-selected method and no retuning after final test.

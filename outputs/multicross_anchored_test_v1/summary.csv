@@ -1,0 +1,5 @@
+algorithm,episodes,unique_scenarios,mean_steps,incomplete,mean_wait,worst_agent_wait
+fcfs,80,80,83.2125,0,12.394791666666666,72
+basic,400,80,83.12,0,12.408177083333333,70
+bo,400,80,83.1175,0,12.418854166666666,69
+pso,400,80,83.1575,0,12.492447916666666,69

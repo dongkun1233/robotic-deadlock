@@ -1,0 +1,89 @@
+Starting merge_multicross_anchored_seeds.py
+Merged 1080 evaluations
+Starting audit_multicross_training.py
+{
+  "passed": true,
+  "objective_evaluations": 1080,
+  "training_episode_rows": 86400,
+  "shared_initial_vectors_and_objectives_verified": true,
+  "training_only_verified": true,
+  "episode_objectives_recomputed": true,
+  "checkpoint_resume_test": "see tests/test_multicross_search.py",
+  "validation_evaluated": false,
+  "test_evaluated": false
+}
+FCFS training: {'mean_total_steps': 84.175, 'incomplete': 0}
+{'model': 'full', 'algorithm': 'basic', 'optimizer_seeds': 5, 'mean_best_training_steps': 83.5375, 'min_best_training_steps': 83.475, 'max_best_training_steps': 83.6, 'selected_incomplete_scenarios': 0}
+{'model': 'full', 'algorithm': 'bo', 'optimizer_seeds': 5, 'mean_best_training_steps': 83.4575, 'min_best_training_steps': 83.3875, 'max_best_training_steps': 83.5125, 'selected_incomplete_scenarios': 0}
+{'model': 'full', 'algorithm': 'pso', 'optimizer_seeds': 5, 'mean_best_training_steps': 83.49249999999999, 'min_best_training_steps': 83.4625, 'max_best_training_steps': 83.5375, 'selected_incomplete_scenarios': 0}
+Starting run_multicross_anchored_validation.py
+fcfs baseline
+basic 101
+bo 101
+pso 101
+basic 202
+bo 202
+pso 202
+basic 303
+bo 303
+pso 303
+basic 404
+bo 404
+pso 404
+basic 505
+bo 505
+pso 505
+{
+  "split": "validation",
+  "episodes": 640,
+  "expected": 640,
+  "simulator": "v2",
+  "duplicate_keys": 0,
+  "replay_verified": true,
+  "selected_on_training_only": true,
+  "test_evaluated": false,
+  "scenario_bootstrap_note": "Resamples unique scenario pairs within four cases after averaging the three optimizer seeds.",
+  "elapsed_seconds": 6.134819844999583
+}
+{'algorithm': 'fcfs', 'optimizer_seed': 'baseline', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.7, 'mean_agent_wait': 13.272916666666667, 'worst_agent_wait': 63}
+{'algorithm': 'basic', 'optimizer_seed': '101', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.125, 'mean_agent_wait': 13.019791666666666, 'worst_agent_wait': 58}
+{'algorithm': 'bo', 'optimizer_seed': '101', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.3, 'mean_agent_wait': 13.254166666666666, 'worst_agent_wait': 62}
+{'algorithm': 'pso', 'optimizer_seed': '101', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 85.05, 'mean_agent_wait': 13.516145833333333, 'worst_agent_wait': 60}
+{'algorithm': 'basic', 'optimizer_seed': '202', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.5, 'mean_agent_wait': 13.284895833333334, 'worst_agent_wait': 57}
+{'algorithm': 'bo', 'optimizer_seed': '202', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.475, 'mean_agent_wait': 13.251041666666667, 'worst_agent_wait': 62}
+{'algorithm': 'pso', 'optimizer_seed': '202', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.5, 'mean_agent_wait': 13.3578125, 'worst_agent_wait': 58}
+{'algorithm': 'basic', 'optimizer_seed': '303', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.25, 'mean_agent_wait': 13.2296875, 'worst_agent_wait': 62}
+{'algorithm': 'bo', 'optimizer_seed': '303', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.925, 'mean_agent_wait': 13.310416666666667, 'worst_agent_wait': 63}
+{'algorithm': 'pso', 'optimizer_seed': '303', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.225, 'mean_agent_wait': 13.288020833333333, 'worst_agent_wait': 63}
+{'algorithm': 'basic', 'optimizer_seed': '404', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.35, 'mean_agent_wait': 13.240104166666667, 'worst_agent_wait': 62}
+{'algorithm': 'bo', 'optimizer_seed': '404', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.55, 'mean_agent_wait': 13.229166666666666, 'worst_agent_wait': 66}
+{'algorithm': 'pso', 'optimizer_seed': '404', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.775, 'mean_agent_wait': 13.383333333333333, 'worst_agent_wait': 63}
+{'algorithm': 'basic', 'optimizer_seed': '505', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 85.3, 'mean_agent_wait': 13.447395833333333, 'worst_agent_wait': 58}
+{'algorithm': 'bo', 'optimizer_seed': '505', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 84.875, 'mean_agent_wait': 13.4609375, 'worst_agent_wait': 57}
+{'algorithm': 'pso', 'optimizer_seed': '505', 'scenarios': 40, 'incomplete_scenarios': 0, 'mean_capped_steps': 85.25, 'mean_agent_wait': 13.459895833333333, 'worst_agent_wait': 58}
+{'algorithm': 'basic', 'unique_validation_scenarios': 40, 'mean_difference_vs_fcfs': -0.19500000000000028, 'bootstrap95_lower': -1.0299999999999994, 'bootstrap95_upper': 0.534999999999999, 'timeout_affected': False, 'interpretation': 'Scenario uncertainty conditional on these three fitted seeds; optimizer uncertainty is not fully estimated.'}
+{'algorithm': 'bo', 'unique_validation_scenarios': 40, 'mean_difference_vs_fcfs': -0.075, 'bootstrap95_lower': -0.7151250000000005, 'bootstrap95_upper': 0.53, 'timeout_affected': False, 'interpretation': 'Scenario uncertainty conditional on these three fitted seeds; optimizer uncertainty is not fully estimated.'}
+{'algorithm': 'pso', 'unique_validation_scenarios': 40, 'mean_difference_vs_fcfs': 0.060000000000000143, 'bootstrap95_lower': -0.7349999999999998, 'bootstrap95_upper': 0.7549999999999997, 'timeout_affected': False, 'interpretation': 'Scenario uncertainty conditional on these three fitted seeds; optimizer uncertainty is not fully estimated.'}
+Starting evaluate_multicross_anchored_test.py
+fcfs baseline
+basic 101
+bo 101
+pso 101
+basic 202
+bo 202
+pso 202
+basic 303
+bo 303
+pso 303
+basic 404
+bo 404
+pso 404
+basic 505
+bo 505
+pso 505
+{'episodes': 1280, 'duplicate_keys': 0, 'incomplete': 0, 'test_evaluated': True, 'weights_frozen_before_test': True, 'no_validation_selection': True, 'elapsed_seconds': 10.971322248999968, 'scope': '80 independent final scenarios for this fixed manifest and simulator; no retuning after viewing.'}
+{'algorithm': 'fcfs', 'episodes': 80, 'unique_scenarios': 80, 'mean_steps': 83.2125, 'incomplete': 0, 'mean_wait': 12.394791666666666, 'worst_agent_wait': 72}
+{'algorithm': 'basic', 'episodes': 400, 'unique_scenarios': 80, 'mean_steps': 83.12, 'incomplete': 0, 'mean_wait': 12.408177083333333, 'worst_agent_wait': 70}
+{'algorithm': 'bo', 'episodes': 400, 'unique_scenarios': 80, 'mean_steps': 83.1175, 'incomplete': 0, 'mean_wait': 12.418854166666666, 'worst_agent_wait': 69}
+{'algorithm': 'pso', 'episodes': 400, 'unique_scenarios': 80, 'mean_steps': 83.1575, 'incomplete': 0, 'mean_wait': 12.492447916666666, 'worst_agent_wait': 69}
+FROZEN COMPARISON FINISHED

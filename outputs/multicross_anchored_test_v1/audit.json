@@ -1,0 +1,10 @@
+{
+  "episodes": 1280,
+  "duplicate_keys": 0,
+  "incomplete": 0,
+  "test_evaluated": true,
+  "weights_frozen_before_test": true,
+  "no_validation_selection": true,
+  "elapsed_seconds": 10.971322248999968,
+  "scope": "80 independent final scenarios for this fixed manifest and simulator; no retuning after viewing."
+}
