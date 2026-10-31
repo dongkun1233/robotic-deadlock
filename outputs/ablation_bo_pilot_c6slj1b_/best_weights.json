@@ -1,0 +1,47 @@
+{
+  "full": {
+    "waiting": 0.523321625394445,
+    "maneuver": -0.10400978172399139,
+    "exit_competition": -0.7132834866058338,
+    "path_conflict": -0.4544701414126883,
+    "approach_queue": 0.0,
+    "remaining_path": 0.0,
+    "same_direction_backlog": 0.0
+  },
+  "without_waiting": {
+    "waiting": 0.0,
+    "maneuver": -0.7061282778355279,
+    "exit_competition": 0.052590022647486676,
+    "path_conflict": -0.7061282778355279,
+    "approach_queue": 0.0,
+    "remaining_path": 0.0,
+    "same_direction_backlog": 0.0
+  },
+  "without_maneuver": {
+    "waiting": 0.9840408774271485,
+    "maneuver": 0.0,
+    "exit_competition": -0.12399941707092854,
+    "path_conflict": -0.1276232585325946,
+    "approach_queue": 0.0,
+    "remaining_path": 0.0,
+    "same_direction_backlog": 0.0
+  },
+  "without_exit_competition": {
+    "waiting": 0.7834860884614612,
+    "maneuver": -0.3219262992269457,
+    "exit_competition": 0.0,
+    "path_conflict": -0.5315195265024628,
+    "approach_queue": 0.0,
+    "remaining_path": 0.0,
+    "same_direction_backlog": 0.0
+  },
+  "without_path_conflict": {
+    "waiting": 0.656485139240127,
+    "maneuver": -0.4986638909016615,
+    "exit_competition": 0.566004934490581,
+    "path_conflict": 0.0,
+    "approach_queue": 0.0,
+    "remaining_path": 0.0,
+    "same_direction_backlog": 0.0
+  }
+}

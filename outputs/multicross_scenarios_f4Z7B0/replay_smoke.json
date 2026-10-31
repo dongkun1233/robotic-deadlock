@@ -1,0 +1,98 @@
+[
+  {
+    "scenario_id": "train_c1_000",
+    "policy": "fcfs",
+    "completed": 24,
+    "robots": 24,
+    "total_steps": 66,
+    "timed_out": false,
+    "competitive_decisions": 34,
+    "mean_wait_steps_all_agents": 5.041666666666667,
+    "max_wait_steps_all_agents": 15,
+    "scenario_replay_verified": true
+  },
+  {
+    "scenario_id": "train_c1_000",
+    "policy": "heuristic",
+    "completed": 24,
+    "robots": 24,
+    "total_steps": 66,
+    "timed_out": false,
+    "competitive_decisions": 29,
+    "mean_wait_steps_all_agents": 4.5,
+    "max_wait_steps_all_agents": 15,
+    "scenario_replay_verified": true
+  },
+  {
+    "scenario_id": "train_c2_000",
+    "policy": "fcfs",
+    "completed": 24,
+    "robots": 24,
+    "total_steps": 74,
+    "timed_out": false,
+    "competitive_decisions": 41,
+    "mean_wait_steps_all_agents": 10.833333333333334,
+    "max_wait_steps_all_agents": 26,
+    "scenario_replay_verified": true
+  },
+  {
+    "scenario_id": "train_c2_000",
+    "policy": "heuristic",
+    "completed": 24,
+    "robots": 24,
+    "total_steps": 74,
+    "timed_out": false,
+    "competitive_decisions": 42,
+    "mean_wait_steps_all_agents": 11.083333333333334,
+    "max_wait_steps_all_agents": 26,
+    "scenario_replay_verified": true
+  },
+  {
+    "scenario_id": "train_c3_000",
+    "policy": "fcfs",
+    "completed": 48,
+    "robots": 48,
+    "total_steps": 103,
+    "timed_out": false,
+    "competitive_decisions": 171,
+    "mean_wait_steps_all_agents": 16.895833333333332,
+    "max_wait_steps_all_agents": 34,
+    "scenario_replay_verified": true
+  },
+  {
+    "scenario_id": "train_c3_000",
+    "policy": "heuristic",
+    "completed": 48,
+    "robots": 48,
+    "total_steps": 113,
+    "timed_out": false,
+    "competitive_decisions": 196,
+    "mean_wait_steps_all_agents": 21.625,
+    "max_wait_steps_all_agents": 49,
+    "scenario_replay_verified": true
+  },
+  {
+    "scenario_id": "train_c4_000",
+    "policy": "fcfs",
+    "completed": 48,
+    "robots": 48,
+    "total_steps": 99,
+    "timed_out": false,
+    "competitive_decisions": 203,
+    "mean_wait_steps_all_agents": 25.125,
+    "max_wait_steps_all_agents": 48,
+    "scenario_replay_verified": true
+  },
+  {
+    "scenario_id": "train_c4_000",
+    "policy": "heuristic",
+    "completed": 48,
+    "robots": 48,
+    "total_steps": 101,
+    "timed_out": false,
+    "competitive_decisions": 197,
+    "mean_wait_steps_all_agents": 23.25,
+    "max_wait_steps_all_agents": 51,
+    "scenario_replay_verified": true
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 0,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 75,
+    "competitive_decisions": 39,
+    "feature_diversity": {
+      "waiting": 36,
+      "maneuver": 30,
+      "exit_competition": 1,
+      "path_conflict": 6
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 1,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 62,
+    "competitive_decisions": 48,
+    "feature_diversity": {
+      "waiting": 43,
+      "maneuver": 39,
+      "exit_competition": 4,
+      "path_conflict": 7
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 2,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 76,
+    "competitive_decisions": 17,
+    "feature_diversity": {
+      "waiting": 15,
+      "maneuver": 8,
+      "exit_competition": 2,
+      "path_conflict": 7
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 3,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 73,
+    "competitive_decisions": 36,
+    "feature_diversity": {
+      "waiting": 21,
+      "maneuver": 29,
+      "exit_competition": 8,
+      "path_conflict": 8
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 4,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 77,
+    "competitive_decisions": 46,
+    "feature_diversity": {
+      "waiting": 36,
+      "maneuver": 34,
+      "exit_competition": 17,
+      "path_conflict": 14
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 5,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 77,
+    "competitive_decisions": 47,
+    "feature_diversity": {
+      "waiting": 41,
+      "maneuver": 36,
+      "exit_competition": 10,
+      "path_conflict": 10
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 6,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 61,
+    "competitive_decisions": 18,
+    "feature_diversity": {
+      "waiting": 17,
+      "maneuver": 13,
+      "exit_competition": 2,
+      "path_conflict": 3
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 7,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 84,
+    "competitive_decisions": 59,
+    "feature_diversity": {
+      "waiting": 54,
+      "maneuver": 45,
+      "exit_competition": 7,
+      "path_conflict": 6
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 8,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 75,
+    "competitive_decisions": 57,
+    "feature_diversity": {
+      "waiting": 41,
+      "maneuver": 42,
+      "exit_competition": 3,
+      "path_conflict": 6
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 20,
+    "seed": 9,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 78,
+    "competitive_decisions": 64,
+    "feature_diversity": {
+      "waiting": 58,
+      "maneuver": 38,
+      "exit_competition": 4,
+      "path_conflict": 9
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 0,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 59,
+    "competitive_decisions": 39,
+    "feature_diversity": {
+      "waiting": 29,
+      "maneuver": 29,
+      "exit_competition": 0,
+      "path_conflict": 4
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 1,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 66,
+    "competitive_decisions": 59,
+    "feature_diversity": {
+      "waiting": 45,
+      "maneuver": 40,
+      "exit_competition": 6,
+      "path_conflict": 15
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 2,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 67,
+    "competitive_decisions": 40,
+    "feature_diversity": {
+      "waiting": 31,
+      "maneuver": 28,
+      "exit_competition": 0,
+      "path_conflict": 2
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 3,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 70,
+    "competitive_decisions": 55,
+    "feature_diversity": {
+      "waiting": 41,
+      "maneuver": 42,
+      "exit_competition": 8,
+      "path_conflict": 6
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 4,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 76,
+    "competitive_decisions": 40,
+    "feature_diversity": {
+      "waiting": 28,
+      "maneuver": 28,
+      "exit_competition": 1,
+      "path_conflict": 0
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 5,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 72,
+    "competitive_decisions": 72,
+    "feature_diversity": {
+      "waiting": 53,
+      "maneuver": 52,
+      "exit_competition": 7,
+      "path_conflict": 7
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 6,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 52,
+    "competitive_decisions": 34,
+    "feature_diversity": {
+      "waiting": 24,
+      "maneuver": 19,
+      "exit_competition": 3,
+      "path_conflict": 3
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 7,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 78,
+    "competitive_decisions": 57,
+    "feature_diversity": {
+      "waiting": 49,
+      "maneuver": 35,
+      "exit_competition": 7,
+      "path_conflict": 6
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 8,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 66,
+    "competitive_decisions": 58,
+    "feature_diversity": {
+      "waiting": 51,
+      "maneuver": 39,
+      "exit_competition": 3,
+      "path_conflict": 8
+    }
+  },
+  {
+    "robots": 24,
+    "spawn_window": 0,
+    "seed": 9,
+    "completed": 24,
+    "timed_out": false,
+    "total_steps": 70,
+    "competitive_decisions": 47,
+    "feature_diversity": {
+      "waiting": 38,
+      "maneuver": 42,
+      "exit_competition": 4,
+      "path_conflict": 4
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 0,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 110,
+    "competitive_decisions": 215,
+    "feature_diversity": {
+      "waiting": 186,
+      "maneuver": 183,
+      "exit_competition": 69,
+      "path_conflict": 61
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 1,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 103,
+    "competitive_decisions": 181,
+    "feature_diversity": {
+      "waiting": 155,
+      "maneuver": 148,
+      "exit_competition": 46,
+      "path_conflict": 58
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 2,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 91,
+    "competitive_decisions": 152,
+    "feature_diversity": {
+      "waiting": 128,
+      "maneuver": 90,
+      "exit_competition": 33,
+      "path_conflict": 49
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 3,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 106,
+    "competitive_decisions": 192,
+    "feature_diversity": {
+      "waiting": 169,
+      "maneuver": 143,
+      "exit_competition": 60,
+      "path_conflict": 46
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 4,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 115,
+    "competitive_decisions": 207,
+    "feature_diversity": {
+      "waiting": 181,
+      "maneuver": 165,
+      "exit_competition": 54,
+      "path_conflict": 50
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 5,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 115,
+    "competitive_decisions": 166,
+    "feature_diversity": {
+      "waiting": 157,
+      "maneuver": 147,
+      "exit_competition": 56,
+      "path_conflict": 70
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 6,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 83,
+    "competitive_decisions": 178,
+    "feature_diversity": {
+      "waiting": 143,
+      "maneuver": 144,
+      "exit_competition": 38,
+      "path_conflict": 49
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 7,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 103,
+    "competitive_decisions": 174,
+    "feature_diversity": {
+      "waiting": 159,
+      "maneuver": 126,
+      "exit_competition": 55,
+      "path_conflict": 53
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 8,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 102,
+    "competitive_decisions": 204,
+    "feature_diversity": {
+      "waiting": 183,
+      "maneuver": 159,
+      "exit_competition": 46,
+      "path_conflict": 60
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 20,
+    "seed": 9,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 104,
+    "competitive_decisions": 175,
+    "feature_diversity": {
+      "waiting": 165,
+      "maneuver": 146,
+      "exit_competition": 52,
+      "path_conflict": 59
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 0,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 99,
+    "competitive_decisions": 224,
+    "feature_diversity": {
+      "waiting": 199,
+      "maneuver": 192,
+      "exit_competition": 64,
+      "path_conflict": 73
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 1,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 84,
+    "competitive_decisions": 226,
+    "feature_diversity": {
+      "waiting": 204,
+      "maneuver": 187,
+      "exit_competition": 52,
+      "path_conflict": 62
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 2,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 102,
+    "competitive_decisions": 167,
+    "feature_diversity": {
+      "waiting": 133,
+      "maneuver": 134,
+      "exit_competition": 19,
+      "path_conflict": 43
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 3,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 109,
+    "competitive_decisions": 167,
+    "feature_diversity": {
+      "waiting": 143,
+      "maneuver": 135,
+      "exit_competition": 50,
+      "path_conflict": 44
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 4,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 110,
+    "competitive_decisions": 188,
+    "feature_diversity": {
+      "waiting": 161,
+      "maneuver": 143,
+      "exit_competition": 50,
+      "path_conflict": 57
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 5,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 104,
+    "competitive_decisions": 222,
+    "feature_diversity": {
+      "waiting": 190,
+      "maneuver": 188,
+      "exit_competition": 63,
+      "path_conflict": 80
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 6,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 90,
+    "competitive_decisions": 180,
+    "feature_diversity": {
+      "waiting": 161,
+      "maneuver": 147,
+      "exit_competition": 56,
+      "path_conflict": 63
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 7,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 95,
+    "competitive_decisions": 189,
+    "feature_diversity": {
+      "waiting": 164,
+      "maneuver": 145,
+      "exit_competition": 44,
+      "path_conflict": 39
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 8,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 99,
+    "competitive_decisions": 203,
+    "feature_diversity": {
+      "waiting": 193,
+      "maneuver": 179,
+      "exit_competition": 67,
+      "path_conflict": 60
+    }
+  },
+  {
+    "robots": 48,
+    "spawn_window": 0,
+    "seed": 9,
+    "completed": 48,
+    "timed_out": false,
+    "total_steps": 87,
+    "competitive_decisions": 209,
+    "feature_diversity": {
+      "waiting": 189,
+      "maneuver": 176,
+      "exit_competition": 56,
+      "path_conflict": 54
+    }
+  }
+]

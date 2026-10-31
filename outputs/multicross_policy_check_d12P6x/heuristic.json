@@ -1,0 +1,5290 @@
+{
+  "policy": "heuristic",
+  "weights": {
+    "waiting": 1.0,
+    "maneuver": -0.5,
+    "exit_competition": -0.5,
+    "path_conflict": -0.5
+  },
+  "grid_rows": 2,
+  "grid_cols": 3,
+  "robots": 24,
+  "seed": 101,
+  "capacity": 2,
+  "completed": 24,
+  "total_steps": 70,
+  "max_steps": 2000,
+  "timed_out": false,
+  "max_no_move_steps": 0,
+  "zone_admissions": {
+    "Z1": 12,
+    "Z2": 12,
+    "Z3": 6,
+    "Z4": 13,
+    "Z5": 9,
+    "Z6": 9
+  },
+  "mean_wait_steps_all_agents": 7.125,
+  "max_wait_steps_all_agents": 17,
+  "mean_spawn_delay": 0.041666666666666664,
+  "competitive_decisions": 41,
+  "feature_diversity": {
+    "waiting": 28,
+    "maneuver": 28,
+    "exit_competition": 1,
+    "path_conflict": 1
+  },
+  "safety_checks": "Node overlap, occupied-cell moves, entry permission and zone capacity asserted each step",
+  "settings_note": "Node-move prototype; no rotation/service duration; exit-cell reservation; fixed routes",
+  "robot_results": [
+    {
+      "id": 0,
+      "start": "W2_IN",
+      "goal": "N2_OUT",
+      "planned": 17,
+      "spawned": 17,
+      "finished": 64,
+      "wait_steps": 13,
+      "path_nodes": 35,
+      "path": [
+        "W2_IN",
+        "M_17_01",
+        "M_17_02",
+        "M_17_03",
+        "M_17_04",
+        "Z4_WAIT_W",
+        "Z4_CP_SW",
+        "Z4_CP_SE",
+        "Z4_CP_NE",
+        "M_15_07",
+        "M_14_07",
+        "M_13_07",
+        "M_12_07",
+        "M_11_07",
+        "M_10_07",
+        "M_09_07",
+        "Z1_WAIT_S",
+        "Z1_CP_SE",
+        "M_07_08",
+        "M_07_09",
+        "M_07_10",
+        "M_07_11",
+        "M_07_12",
+        "M_07_13",
+        "M_07_14",
+        "Z2_WAIT_W",
+        "Z2_CP_SW",
+        "Z2_CP_SE",
+        "Z2_CP_NE",
+        "M_05_17",
+        "M_04_17",
+        "M_03_17",
+        "M_02_17",
+        "M_01_17",
+        "N2_OUT"
+      ]
+    },
+    {
+      "id": 1,
+      "start": "S1_IN",
+      "goal": "W1_OUT",
+      "planned": 1,
+      "spawned": 1,
+      "finished": 37,
+      "wait_steps": 12,
+      "path_nodes": 25,
+      "path": [
+        "S1_IN",
+        "M_22_07",
+        "M_21_07",
+        "M_20_07",
+        "M_19_07",
+        "Z4_WAIT_S",
+        "Z4_CP_SE",
+        "Z4_CP_NE",
+        "M_15_07",
+        "M_14_07",
+        "M_13_07",
+        "M_12_07",
+        "M_11_07",
+        "M_10_07",
+        "M_09_07",
+        "Z1_WAIT_S",
+        "Z1_CP_SE",
+        "Z1_CP_NE",
+        "Z1_CP_NW",
+        "M_06_05",
+        "M_06_04",
+        "M_06_03",
+        "M_06_02",
+        "M_06_01",
+        "W1_OUT"
+      ]
+    },
+    {
+      "id": 2,
+      "start": "W1_IN",
+      "goal": "N2_OUT",
+      "planned": 19,
+      "spawned": 19,
+      "finished": 51,
+      "wait_steps": 8,
+      "path_nodes": 25,
+      "path": [
+        "W1_IN",
+        "M_07_01",
+        "M_07_02",
+        "M_07_03",
+        "M_07_04",
+        "Z1_WAIT_W",
+        "Z1_CP_SW",
+        "Z1_CP_SE",
+        "M_07_08",
+        "M_07_09",
+        "M_07_10",
+        "M_07_11",
+        "M_07_12",
+        "M_07_13",
+        "M_07_14",
+        "Z2_WAIT_W",
+        "Z2_CP_SW",
+        "Z2_CP_SE",
+        "Z2_CP_NE",
+        "M_05_17",
+        "M_04_17",
+        "M_03_17",
+        "M_02_17",
+        "M_01_17",
+        "N2_OUT"
+      ]
+    },
+    {
+      "id": 3,
+      "start": "N2_IN",
+      "goal": "S1_OUT",
+      "planned": 15,
+      "spawned": 15,
+      "finished": 58,
+      "wait_steps": 10,
+      "path_nodes": 34,
+      "path": [
+        "N2_IN",
+        "M_01_16",
+        "M_02_16",
+        "M_03_16",
+        "M_04_16",
+        "Z2_WAIT_N",
+        "Z2_CP_NW",
+        "M_06_15",
+        "M_06_14",
+        "M_06_13",
+        "M_06_12",
+        "M_06_11",
+        "M_06_10",
+        "M_06_09",
+        "Z1_WAIT_E",
+        "Z1_CP_NE",
+        "Z1_CP_NW",
+        "Z1_CP_SW",
+        "M_08_06",
+        "M_09_06",
+        "M_10_06",
+        "M_11_06",
+        "M_12_06",
+        "M_13_06",
+        "M_14_06",
+        "Z4_WAIT_N",
+        "Z4_CP_NW",
+        "Z4_CP_SW",
+        "M_18_06",
+        "M_19_06",
+        "M_20_06",
+        "M_21_06",
+        "M_22_06",
+        "S1_OUT"
+      ]
+    },
+    {
+      "id": 4,
+      "start": "N2_IN",
+      "goal": "S2_OUT",
+      "planned": 14,
+      "spawned": 14,
+      "finished": 38,
+      "wait_steps": 1,
+      "path_nodes": 24,
+      "path": [
+        "N2_IN",
+        "M_01_16",
+        "M_02_16",
+        "M_03_16",
+        "M_04_16",
+        "Z2_WAIT_N",
+        "Z2_CP_NW",
+        "Z2_CP_SW",
+        "M_08_16",
+        "M_09_16",
+        "M_10_16",
+        "M_11_16",
+        "M_12_16",
+        "M_13_16",
+        "M_14_16",
+        "Z5_WAIT_N",
+        "Z5_CP_NW",
+        "Z5_CP_SW",
+        "M_18_16",
+        "M_19_16",
+        "M_20_16",
+        "M_21_16",
+        "M_22_16",
+        "S2_OUT"
+      ]
+    },
+    {
+      "id": 5,
+      "start": "E2_IN",
+      "goal": "S1_OUT",
+      "planned": 6,
+      "spawned": 6,
+      "finished": 40,
+      "wait_steps": 0,
+      "path_nodes": 35,
+      "path": [
+        "E2_IN",
+        "M_16_32",
+        "M_16_31",
+        "M_16_30",
+        "M_16_29",
+        "Z6_WAIT_E",
+        "Z6_CP_NE",
+        "Z6_CP_NW",
+        "M_16_25",
+        "M_16_24",
+        "M_16_23",
+        "M_16_22",
+        "M_16_21",
+        "M_16_20",
+        "M_16_19",
+        "Z5_WAIT_E",
+        "Z5_CP_NE",
+        "Z5_CP_NW",
+        "M_16_15",
+        "M_16_14",
+        "M_16_13",
+        "M_16_12",
+        "M_16_11",
+        "M_16_10",
+        "M_16_09",
+        "Z4_WAIT_E",
+        "Z4_CP_NE",
+        "Z4_CP_NW",
+        "Z4_CP_SW",
+        "M_18_06",
+        "M_19_06",
+        "M_20_06",
+        "M_21_06",
+        "M_22_06",
+        "S1_OUT"
+      ]
+    },
+    {
+      "id": 6,
+      "start": "N1_IN",
+      "goal": "E2_OUT",
+      "planned": 14,
+      "spawned": 14,
+      "finished": 65,
+      "wait_steps": 7,
+      "path_nodes": 45,
+      "path": [
+        "N1_IN",
+        "M_01_06",
+        "M_02_06",
+        "M_03_06",
+        "M_04_06",
+        "Z1_WAIT_N",
+        "Z1_CP_NW",
+        "Z1_CP_SW",
+        "Z1_CP_SE",
+        "M_07_08",
+        "M_07_09",
+        "M_07_10",
+        "M_07_11",
+        "M_07_12",
+        "M_07_13",
+        "M_07_14",
+        "Z2_WAIT_W",
+        "Z2_CP_SW",
+        "Z2_CP_SE",
+        "M_07_18",
+        "M_07_19",
+        "M_07_20",
+        "M_07_21",
+        "M_07_22",
+        "M_07_23",
+        "M_07_24",
+        "Z3_WAIT_W",
+        "Z3_CP_SW",
+        "M_08_26",
+        "M_09_26",
+        "M_10_26",
+        "M_11_26",
+        "M_12_26",
+        "M_13_26",
+        "M_14_26",
+        "Z6_WAIT_N",
+        "Z6_CP_NW",
+        "Z6_CP_SW",
+        "Z6_CP_SE",
+        "M_17_28",
+        "M_17_29",
+        "M_17_30",
+        "M_17_31",
+        "M_17_32",
+        "E2_OUT"
+      ]
+    },
+    {
+      "id": 7,
+      "start": "W1_IN",
+      "goal": "S1_OUT",
+      "planned": 6,
+      "spawned": 6,
+      "finished": 28,
+      "wait_steps": 0,
+      "path_nodes": 23,
+      "path": [
+        "W1_IN",
+        "M_07_01",
+        "M_07_02",
+        "M_07_03",
+        "M_07_04",
+        "Z1_WAIT_W",
+        "Z1_CP_SW",
+        "M_08_06",
+        "M_09_06",
+        "M_10_06",
+        "M_11_06",
+        "M_12_06",
+        "M_13_06",
+        "M_14_06",
+        "Z4_WAIT_N",
+        "Z4_CP_NW",
+        "Z4_CP_SW",
+        "M_18_06",
+        "M_19_06",
+        "M_20_06",
+        "M_21_06",
+        "M_22_06",
+        "S1_OUT"
+      ]
+    },
+    {
+      "id": 8,
+      "start": "S3_IN",
+      "goal": "S1_OUT",
+      "planned": 7,
+      "spawned": 7,
+      "finished": 46,
+      "wait_steps": 4,
+      "path_nodes": 36,
+      "path": [
+        "S3_IN",
+        "M_22_27",
+        "M_21_27",
+        "M_20_27",
+        "M_19_27",
+        "Z6_WAIT_S",
+        "Z6_CP_SE",
+        "Z6_CP_NE",
+        "Z6_CP_NW",
+        "M_16_25",
+        "M_16_24",
+        "M_16_23",
+        "M_16_22",
+        "M_16_21",
+        "M_16_20",
+        "M_16_19",
+        "Z5_WAIT_E",
+        "Z5_CP_NE",
+        "Z5_CP_NW",
+        "M_16_15",
+        "M_16_14",
+        "M_16_13",
+        "M_16_12",
+        "M_16_11",
+        "M_16_10",
+        "M_16_09",
+        "Z4_WAIT_E",
+        "Z4_CP_NE",
+        "Z4_CP_NW",
+        "Z4_CP_SW",
+        "M_18_06",
+        "M_19_06",
+        "M_20_06",
+        "M_21_06",
+        "M_22_06",
+        "S1_OUT"
+      ]
+    },
+    {
+      "id": 9,
+      "start": "S2_IN",
+      "goal": "S3_OUT",
+      "planned": 6,
+      "spawned": 6,
+      "finished": 31,
+      "wait_steps": 4,
+      "path_nodes": 22,
+      "path": [
+        "S2_IN",
+        "M_22_17",
+        "M_21_17",
+        "M_20_17",
+        "M_19_17",
+        "Z5_WAIT_S",
+        "Z5_CP_SE",
+        "M_17_18",
+        "M_17_19",
+        "M_17_20",
+        "M_17_21",
+        "M_17_22",
+        "M_17_23",
+        "M_17_24",
+        "Z6_WAIT_W",
+        "Z6_CP_SW",
+        "M_18_26",
+        "M_19_26",
+        "M_20_26",
+        "M_21_26",
+        "M_22_26",
+        "S3_OUT"
+      ]
+    },
+    {
+      "id": 10,
+      "start": "E2_IN",
+      "goal": "S3_OUT",
+      "planned": 14,
+      "spawned": 14,
+      "finished": 36,
+      "wait_steps": 8,
+      "path_nodes": 15,
+      "path": [
+        "E2_IN",
+        "M_16_32",
+        "M_16_31",
+        "M_16_30",
+        "M_16_29",
+        "Z6_WAIT_E",
+        "Z6_CP_NE",
+        "Z6_CP_NW",
+        "Z6_CP_SW",
+        "M_18_26",
+        "M_19_26",
+        "M_20_26",
+        "M_21_26",
+        "M_22_26",
+        "S3_OUT"
+      ]
+    },
+    {
+      "id": 11,
+      "start": "N3_IN",
+      "goal": "N2_OUT",
+      "planned": 3,
+      "spawned": 3,
+      "finished": 24,
+      "wait_steps": 0,
+      "path_nodes": 22,
+      "path": [
+        "N3_IN",
+        "M_01_26",
+        "M_02_26",
+        "M_03_26",
+        "M_04_26",
+        "Z3_WAIT_N",
+        "Z3_CP_NW",
+        "M_06_25",
+        "M_06_24",
+        "M_06_23",
+        "M_06_22",
+        "M_06_21",
+        "M_06_20",
+        "M_06_19",
+        "Z2_WAIT_E",
+        "Z2_CP_NE",
+        "M_05_17",
+        "M_04_17",
+        "M_03_17",
+        "M_02_17",
+        "M_01_17",
+        "N2_OUT"
+      ]
+    },
+    {
+      "id": 12,
+      "start": "W2_IN",
+      "goal": "S1_OUT",
+      "planned": 8,
+      "spawned": 8,
+      "finished": 22,
+      "wait_steps": 2,
+      "path_nodes": 13,
+      "path": [
+        "W2_IN",
+        "M_17_01",
+        "M_17_02",
+        "M_17_03",
+        "M_17_04",
+        "Z4_WAIT_W",
+        "Z4_CP_SW",
+        "M_18_06",
+        "M_19_06",
+        "M_20_06",
+        "M_21_06",
+        "M_22_06",
+        "S1_OUT"
+      ]
+    },
+    {
+      "id": 13,
+      "start": "S2_IN",
+      "goal": "S3_OUT",
+      "planned": 7,
+      "spawned": 7,
+      "finished": 39,
+      "wait_steps": 11,
+      "path_nodes": 22,
+      "path": [
+        "S2_IN",
+        "M_22_17",
+        "M_21_17",
+        "M_20_17",
+        "M_19_17",
+        "Z5_WAIT_S",
+        "Z5_CP_SE",
+        "M_17_18",
+        "M_17_19",
+        "M_17_20",
+        "M_17_21",
+        "M_17_22",
+        "M_17_23",
+        "M_17_24",
+        "Z6_WAIT_W",
+        "Z6_CP_SW",
+        "M_18_26",
+        "M_19_26",
+        "M_20_26",
+        "M_21_26",
+        "M_22_26",
+        "S3_OUT"
+      ]
+    },
+    {
+      "id": 14,
+      "start": "S2_IN",
+      "goal": "E2_OUT",
+      "planned": 12,
+      "spawned": 12,
+      "finished": 42,
+      "wait_steps": 8,
+      "path_nodes": 23,
+      "path": [
+        "S2_IN",
+        "M_22_17",
+        "M_21_17",
+        "M_20_17",
+        "M_19_17",
+        "Z5_WAIT_S",
+        "Z5_CP_SE",
+        "M_17_18",
+        "M_17_19",
+        "M_17_20",
+        "M_17_21",
+        "M_17_22",
+        "M_17_23",
+        "M_17_24",
+        "Z6_WAIT_W",
+        "Z6_CP_SW",
+        "Z6_CP_SE",
+        "M_17_28",
+        "M_17_29",
+        "M_17_30",
+        "M_17_31",
+        "M_17_32",
+        "E2_OUT"
+      ]
+    },
+    {
+      "id": 15,
+      "start": "S2_IN",
+      "goal": "E1_OUT",
+      "planned": 14,
+      "spawned": 14,
+      "finished": 51,
+      "wait_steps": 5,
+      "path_nodes": 33,
+      "path": [
+        "S2_IN",
+        "M_22_17",
+        "M_21_17",
+        "M_20_17",
+        "M_19_17",
+        "Z5_WAIT_S",
+        "Z5_CP_SE",
+        "Z5_CP_NE",
+        "M_15_17",
+        "M_14_17",
+        "M_13_17",
+        "M_12_17",
+        "M_11_17",
+        "M_10_17",
+        "M_09_17",
+        "Z2_WAIT_S",
+        "Z2_CP_SE",
+        "M_07_18",
+        "M_07_19",
+        "M_07_20",
+        "M_07_21",
+        "M_07_22",
+        "M_07_23",
+        "M_07_24",
+        "Z3_WAIT_W",
+        "Z3_CP_SW",
+        "Z3_CP_SE",
+        "M_07_28",
+        "M_07_29",
+        "M_07_30",
+        "M_07_31",
+        "M_07_32",
+        "E1_OUT"
+      ]
+    },
+    {
+      "id": 16,
+      "start": "N2_IN",
+      "goal": "W2_OUT",
+      "planned": 3,
+      "spawned": 3,
+      "finished": 35,
+      "wait_steps": 0,
+      "path_nodes": 33,
+      "path": [
+        "N2_IN",
+        "M_01_16",
+        "M_02_16",
+        "M_03_16",
+        "M_04_16",
+        "Z2_WAIT_N",
+        "Z2_CP_NW",
+        "M_06_15",
+        "M_06_14",
+        "M_06_13",
+        "M_06_12",
+        "M_06_11",
+        "M_06_10",
+        "M_06_09",
+        "Z1_WAIT_E",
+        "Z1_CP_NE",
+        "Z1_CP_NW",
+        "Z1_CP_SW",
+        "M_08_06",
+        "M_09_06",
+        "M_10_06",
+        "M_11_06",
+        "M_12_06",
+        "M_13_06",
+        "M_14_06",
+        "Z4_WAIT_N",
+        "Z4_CP_NW",
+        "M_16_05",
+        "M_16_04",
+        "M_16_03",
+        "M_16_02",
+        "M_16_01",
+        "W2_OUT"
+      ]
+    },
+    {
+      "id": 17,
+      "start": "S1_IN",
+      "goal": "E1_OUT",
+      "planned": 11,
+      "spawned": 11,
+      "finished": 70,
+      "wait_steps": 17,
+      "path_nodes": 43,
+      "path": [
+        "S1_IN",
+        "M_22_07",
+        "M_21_07",
+        "M_20_07",
+        "M_19_07",
+        "Z4_WAIT_S",
+        "Z4_CP_SE",
+        "Z4_CP_NE",
+        "M_15_07",
+        "M_14_07",
+        "M_13_07",
+        "M_12_07",
+        "M_11_07",
+        "M_10_07",
+        "M_09_07",
+        "Z1_WAIT_S",
+        "Z1_CP_SE",
+        "M_07_08",
+        "M_07_09",
+        "M_07_10",
+        "M_07_11",
+        "M_07_12",
+        "M_07_13",
+        "M_07_14",
+        "Z2_WAIT_W",
+        "Z2_CP_SW",
+        "Z2_CP_SE",
+        "M_07_18",
+        "M_07_19",
+        "M_07_20",
+        "M_07_21",
+        "M_07_22",
+        "M_07_23",
+        "M_07_24",
+        "Z3_WAIT_W",
+        "Z3_CP_SW",
+        "Z3_CP_SE",
+        "M_07_28",
+        "M_07_29",
+        "M_07_30",
+        "M_07_31",
+        "M_07_32",
+        "E1_OUT"
+      ]
+    },
+    {
+      "id": 18,
+      "start": "S1_IN",
+      "goal": "E1_OUT",
+      "planned": 8,
+      "spawned": 8,
+      "finished": 66,
+      "wait_steps": 16,
+      "path_nodes": 43,
+      "path": [
+        "S1_IN",
+        "M_22_07",
+        "M_21_07",
+        "M_20_07",
+        "M_19_07",
+        "Z4_WAIT_S",
+        "Z4_CP_SE",
+        "Z4_CP_NE",
+        "M_15_07",
+        "M_14_07",
+        "M_13_07",
+        "M_12_07",
+        "M_11_07",
+        "M_10_07",
+        "M_09_07",
+        "Z1_WAIT_S",
+        "Z1_CP_SE",
+        "M_07_08",
+        "M_07_09",
+        "M_07_10",
+        "M_07_11",
+        "M_07_12",
+        "M_07_13",
+        "M_07_14",
+        "Z2_WAIT_W",
+        "Z2_CP_SW",
+        "Z2_CP_SE",
+        "M_07_18",
+        "M_07_19",
+        "M_07_20",
+        "M_07_21",
+        "M_07_22",
+        "M_07_23",
+        "M_07_24",
+        "Z3_WAIT_W",
+        "Z3_CP_SW",
+        "Z3_CP_SE",
+        "M_07_28",
+        "M_07_29",
+        "M_07_30",
+        "M_07_31",
+        "M_07_32",
+        "E1_OUT"
+      ]
+    },
+    {
+      "id": 19,
+      "start": "W2_IN",
+      "goal": "N1_OUT",
+      "planned": 1,
+      "spawned": 1,
+      "finished": 29,
+      "wait_steps": 4,
+      "path_nodes": 25,
+      "path": [
+        "W2_IN",
+        "M_17_01",
+        "M_17_02",
+        "M_17_03",
+        "M_17_04",
+        "Z4_WAIT_W",
+        "Z4_CP_SW",
+        "Z4_CP_SE",
+        "Z4_CP_NE",
+        "M_15_07",
+        "M_14_07",
+        "M_13_07",
+        "M_12_07",
+        "M_11_07",
+        "M_10_07",
+        "M_09_07",
+        "Z1_WAIT_S",
+        "Z1_CP_SE",
+        "Z1_CP_NE",
+        "M_05_07",
+        "M_04_07",
+        "M_03_07",
+        "M_02_07",
+        "M_01_07",
+        "N1_OUT"
+      ]
+    },
+    {
+      "id": 20,
+      "start": "S2_IN",
+      "goal": "N1_OUT",
+      "planned": 8,
+      "spawned": 9,
+      "finished": 50,
+      "wait_steps": 8,
+      "path_nodes": 34,
+      "path": [
+        "S2_IN",
+        "M_22_17",
+        "M_21_17",
+        "M_20_17",
+        "M_19_17",
+        "Z5_WAIT_S",
+        "Z5_CP_SE",
+        "Z5_CP_NE",
+        "M_15_17",
+        "M_14_17",
+        "M_13_17",
+        "M_12_17",
+        "M_11_17",
+        "M_10_17",
+        "M_09_17",
+        "Z2_WAIT_S",
+        "Z2_CP_SE",
+        "Z2_CP_NE",
+        "Z2_CP_NW",
+        "M_06_15",
+        "M_06_14",
+        "M_06_13",
+        "M_06_12",
+        "M_06_11",
+        "M_06_10",
+        "M_06_09",
+        "Z1_WAIT_E",
+        "Z1_CP_NE",
+        "M_05_07",
+        "M_04_07",
+        "M_03_07",
+        "M_02_07",
+        "M_01_07",
+        "N1_OUT"
+      ]
+    },
+    {
+      "id": 21,
+      "start": "E2_IN",
+      "goal": "N2_OUT",
+      "planned": 12,
+      "spawned": 12,
+      "finished": 54,
+      "wait_steps": 10,
+      "path_nodes": 33,
+      "path": [
+        "E2_IN",
+        "M_16_32",
+        "M_16_31",
+        "M_16_30",
+        "M_16_29",
+        "Z6_WAIT_E",
+        "Z6_CP_NE",
+        "M_15_27",
+        "M_14_27",
+        "M_13_27",
+        "M_12_27",
+        "M_11_27",
+        "M_10_27",
+        "M_09_27",
+        "Z3_WAIT_S",
+        "Z3_CP_SE",
+        "Z3_CP_NE",
+        "Z3_CP_NW",
+        "M_06_25",
+        "M_06_24",
+        "M_06_23",
+        "M_06_22",
+        "M_06_21",
+        "M_06_20",
+        "M_06_19",
+        "Z2_WAIT_E",
+        "Z2_CP_NE",
+        "M_05_17",
+        "M_04_17",
+        "M_03_17",
+        "M_02_17",
+        "M_01_17",
+        "N2_OUT"
+      ]
+    },
+    {
+      "id": 22,
+      "start": "S1_IN",
+      "goal": "W1_OUT",
+      "planned": 5,
+      "spawned": 5,
+      "finished": 44,
+      "wait_steps": 15,
+      "path_nodes": 25,
+      "path": [
+        "S1_IN",
+        "M_22_07",
+        "M_21_07",
+        "M_20_07",
+        "M_19_07",
+        "Z4_WAIT_S",
+        "Z4_CP_SE",
+        "Z4_CP_NE",
+        "M_15_07",
+        "M_14_07",
+        "M_13_07",
+        "M_12_07",
+        "M_11_07",
+        "M_10_07",
+        "M_09_07",
+        "Z1_WAIT_S",
+        "Z1_CP_SE",
+        "Z1_CP_NE",
+        "Z1_CP_NW",
+        "M_06_05",
+        "M_06_04",
+        "M_06_03",
+        "M_06_02",
+        "M_06_01",
+        "W1_OUT"
+      ]
+    },
+    {
+      "id": 23,
+      "start": "S3_IN",
+      "goal": "W2_OUT",
+      "planned": 9,
+      "spawned": 9,
+      "finished": 51,
+      "wait_steps": 8,
+      "path_nodes": 35,
+      "path": [
+        "S3_IN",
+        "M_22_27",
+        "M_21_27",
+        "M_20_27",
+        "M_19_27",
+        "Z6_WAIT_S",
+        "Z6_CP_SE",
+        "Z6_CP_NE",
+        "Z6_CP_NW",
+        "M_16_25",
+        "M_16_24",
+        "M_16_23",
+        "M_16_22",
+        "M_16_21",
+        "M_16_20",
+        "M_16_19",
+        "Z5_WAIT_E",
+        "Z5_CP_NE",
+        "Z5_CP_NW",
+        "M_16_15",
+        "M_16_14",
+        "M_16_13",
+        "M_16_12",
+        "M_16_11",
+        "M_16_10",
+        "M_16_09",
+        "Z4_WAIT_E",
+        "Z4_CP_NE",
+        "Z4_CP_NW",
+        "M_16_05",
+        "M_16_04",
+        "M_16_03",
+        "M_16_02",
+        "M_16_01",
+        "W2_OUT"
+      ]
+    }
+  ],
+  "admission_log": [
+    {
+      "step": 6,
+      "robot": 19,
+      "zone": "Z4",
+      "waiting": 0
+    },
+    {
+      "step": 8,
+      "robot": 16,
+      "zone": "Z2",
+      "waiting": 0
+    },
+    {
+      "step": 8,
+      "robot": 11,
+      "zone": "Z3",
+      "waiting": 0
+    },
+    {
+      "step": 11,
+      "robot": 7,
+      "zone": "Z1",
+      "waiting": 0
+    },
+    {
+      "step": 11,
+      "robot": 1,
+      "zone": "Z4",
+      "waiting": 5
+    },
+    {
+      "step": 11,
+      "robot": 9,
+      "zone": "Z5",
+      "waiting": 0
+    },
+    {
+      "step": 11,
+      "robot": 5,
+      "zone": "Z6",
+      "waiting": 0
+    },
+    {
+      "step": 14,
+      "robot": 13,
+      "zone": "Z5",
+      "waiting": 1
+    },
+    {
+      "step": 15,
+      "robot": 22,
+      "zone": "Z4",
+      "waiting": 2
+    },
+    {
+      "step": 15,
+      "robot": 12,
+      "zone": "Z4",
+      "waiting": 2
+    },
+    {
+      "step": 15,
+      "robot": 8,
+      "zone": "Z6",
+      "waiting": 3
+    },
+    {
+      "step": 16,
+      "robot": 20,
+      "zone": "Z5",
+      "waiting": 0
+    },
+    {
+      "step": 17,
+      "robot": 16,
+      "zone": "Z1",
+      "waiting": 0
+    },
+    {
+      "step": 17,
+      "robot": 11,
+      "zone": "Z2",
+      "waiting": 0
+    },
+    {
+      "step": 19,
+      "robot": 4,
+      "zone": "Z2",
+      "waiting": 0
+    },
+    {
+      "step": 19,
+      "robot": 18,
+      "zone": "Z4",
+      "waiting": 2
+    },
+    {
+      "step": 19,
+      "robot": 14,
+      "zone": "Z5",
+      "waiting": 1
+    },
+    {
+      "step": 20,
+      "robot": 7,
+      "zone": "Z4",
+      "waiting": 0
+    },
+    {
+      "step": 20,
+      "robot": 23,
+      "zone": "Z6",
+      "waiting": 3
+    },
+    {
+      "step": 21,
+      "robot": 19,
+      "zone": "Z1",
+      "waiting": 4
+    },
+    {
+      "step": 21,
+      "robot": 5,
+      "zone": "Z5",
+      "waiting": 0
+    },
+    {
+      "step": 22,
+      "robot": 3,
+      "zone": "Z2",
+      "waiting": 1
+    },
+    {
+      "step": 23,
+      "robot": 17,
+      "zone": "Z4",
+      "waiting": 2
+    },
+    {
+      "step": 24,
+      "robot": 6,
+      "zone": "Z1",
+      "waiting": 5
+    },
+    {
+      "step": 24,
+      "robot": 15,
+      "zone": "Z5",
+      "waiting": 3
+    },
+    {
+      "step": 24,
+      "robot": 21,
+      "zone": "Z6",
+      "waiting": 7
+    },
+    {
+      "step": 24,
+      "robot": 9,
+      "zone": "Z6",
+      "waiting": 4
+    },
+    {
+      "step": 26,
+      "robot": 20,
+      "zone": "Z2",
+      "waiting": 0
+    },
+    {
+      "step": 27,
+      "robot": 0,
+      "zone": "Z4",
+      "waiting": 5
+    },
+    {
+      "step": 27,
+      "robot": 8,
+      "zone": "Z5",
+      "waiting": 1
+    },
+    {
+      "step": 27,
+      "robot": 10,
+      "zone": "Z6",
+      "waiting": 1
+    },
+    {
+      "step": 28,
+      "robot": 1,
+      "zone": "Z1",
+      "waiting": 5
+    },
+    {
+      "step": 28,
+      "robot": 16,
+      "zone": "Z4",
+      "waiting": 0
+    },
+    {
+      "step": 30,
+      "robot": 4,
+      "zone": "Z5",
+      "waiting": 1
+    },
+    {
+      "step": 31,
+      "robot": 5,
+      "zone": "Z4",
+      "waiting": 0
+    },
+    {
+      "step": 32,
+      "robot": 2,
+      "zone": "Z1",
+      "waiting": 8
+    },
+    {
+      "step": 32,
+      "robot": 13,
+      "zone": "Z6",
+      "waiting": 6
+    },
+    {
+      "step": 33,
+      "robot": 21,
+      "zone": "Z3",
+      "waiting": 0
+    },
+    {
+      "step": 33,
+      "robot": 23,
+      "zone": "Z5",
+      "waiting": 2
+    },
+    {
+      "step": 34,
+      "robot": 15,
+      "zone": "Z2",
+      "waiting": 0
+    },
+    {
+      "step": 34,
+      "robot": 14,
+      "zone": "Z6",
+      "waiting": 0
+    },
+    {
+      "step": 35,
+      "robot": 22,
+      "zone": "Z1",
+      "waiting": 5
+    },
+    {
+      "step": 37,
+      "robot": 6,
+      "zone": "Z2",
+      "waiting": 2
+    },
+    {
+      "step": 37,
+      "robot": 8,
+      "zone": "Z4",
+      "waiting": 0
+    },
+    {
+      "step": 39,
+      "robot": 3,
+      "zone": "Z1",
+      "waiting": 8
+    },
+    {
+      "step": 39,
+      "robot": 18,
+      "zone": "Z1",
+      "waiting": 2
+    },
+    {
+      "step": 42,
+      "robot": 17,
+      "zone": "Z1",
+      "waiting": 1
+    },
+    {
+      "step": 42,
+      "robot": 2,
+      "zone": "Z2",
+      "waiting": 0
+    },
+    {
+      "step": 43,
+      "robot": 20,
+      "zone": "Z1",
+      "waiting": 2
+    },
+    {
+      "step": 43,
+      "robot": 15,
+      "zone": "Z3",
+      "waiting": 0
+    },
+    {
+      "step": 43,
+      "robot": 23,
+      "zone": "Z4",
+      "waiting": 0
+    },
+    {
+      "step": 45,
+      "robot": 0,
+      "zone": "Z1",
+      "waiting": 1
+    },
+    {
+      "step": 47,
+      "robot": 21,
+      "zone": "Z2",
+      "waiting": 3
+    },
+    {
+      "step": 47,
+      "robot": 6,
+      "zone": "Z3",
+      "waiting": 0
+    },
+    {
+      "step": 48,
+      "robot": 18,
+      "zone": "Z2",
+      "waiting": 0
+    },
+    {
+      "step": 50,
+      "robot": 3,
+      "zone": "Z4",
+      "waiting": 0
+    },
+    {
+      "step": 52,
+      "robot": 17,
+      "zone": "Z2",
+      "waiting": 1
+    },
+    {
+      "step": 55,
+      "robot": 0,
+      "zone": "Z2",
+      "waiting": 1
+    },
+    {
+      "step": 56,
+      "robot": 6,
+      "zone": "Z6",
+      "waiting": 0
+    },
+    {
+      "step": 58,
+      "robot": 18,
+      "zone": "Z3",
+      "waiting": 0
+    },
+    {
+      "step": 62,
+      "robot": 17,
+      "zone": "Z3",
+      "waiting": 0
+    }
+  ],
+  "decision_log": [
+    {
+      "step": 6,
+      "zone": "Z4",
+      "ranked_first": 19,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -1.25
+        },
+        {
+          "robot": 19,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -1.0
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "zone": "Z4",
+      "ranked_first": 1,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "zone": "Z4",
+      "ranked_first": 1,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "zone": "Z2",
+      "ranked_first": 16,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 16,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "zone": "Z3",
+      "ranked_first": 11,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 11,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "zone": "Z4",
+      "ranked_first": 1,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "zone": "Z4",
+      "ranked_first": 1,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "zone": "Z4",
+      "ranked_first": 1,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "zone": "Z1",
+      "ranked_first": 7,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 7,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "zone": "Z4",
+      "ranked_first": 1,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 5,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "zone": "Z5",
+      "ranked_first": 9,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 9,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "zone": "Z6",
+      "ranked_first": 5,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 5,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "zone": "Z6",
+      "ranked_first": 8,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 8,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "zone": "Z4",
+      "ranked_first": 22,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 12,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        },
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "zone": "Z5",
+      "ranked_first": 13,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "zone": "Z6",
+      "ranked_first": 8,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 8,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "zone": "Z4",
+      "ranked_first": 22,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 12,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "zone": "Z5",
+      "ranked_first": 13,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 14,
+      "zone": "Z6",
+      "ranked_first": 8,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 8,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "zone": "Z4",
+      "ranked_first": 22,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 12,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "zone": "Z4",
+      "ranked_first": 12,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 12,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 15,
+      "zone": "Z6",
+      "ranked_first": 8,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 8,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 16,
+      "zone": "Z5",
+      "ranked_first": 20,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 20,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "zone": "Z1",
+      "ranked_first": 16,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 16,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.5
+        },
+        {
+          "robot": 19,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.75
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "zone": "Z1",
+      "ranked_first": 19,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 19,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "zone": "Z2",
+      "ranked_first": 11,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 11,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "zone": "Z4",
+      "ranked_first": 18,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 18,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 17,
+      "zone": "Z6",
+      "ranked_first": 23,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -1.0
+        },
+        {
+          "robot": 23,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "zone": "Z1",
+      "ranked_first": 19,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 19,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "zone": "Z4",
+      "ranked_first": 18,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 18,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "zone": "Z5",
+      "ranked_first": 14,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 14,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 18,
+      "zone": "Z6",
+      "ranked_first": 23,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "robot": 23,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "zone": "Z1",
+      "ranked_first": 19,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 19,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.25
+        },
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "zone": "Z2",
+      "ranked_first": 4,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 4,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "zone": "Z4",
+      "ranked_first": 18,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 18,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "zone": "Z5",
+      "ranked_first": 14,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 14,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 19,
+      "zone": "Z6",
+      "ranked_first": 23,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "robot": 23,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 20,
+      "zone": "Z1",
+      "ranked_first": 19,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 19,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.25
+        },
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.3333333333333333,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.16666666666666669
+        }
+      ]
+    },
+    {
+      "step": 20,
+      "zone": "Z4",
+      "ranked_first": 7,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 7,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 20,
+      "zone": "Z6",
+      "ranked_first": 23,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "robot": 23,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 9,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 20,
+      "zone": "Z6",
+      "ranked_first": 21,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 9,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "zone": "Z1",
+      "ranked_first": 19,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 19,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.25
+        },
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.5,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "zone": "Z1",
+      "ranked_first": 6,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "zone": "Z2",
+      "ranked_first": 3,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "zone": "Z5",
+      "ranked_first": 5,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 5,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.75
+        },
+        {
+          "robot": 15,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.75
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "zone": "Z5",
+      "ranked_first": 15,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 15,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 21,
+      "zone": "Z6",
+      "ranked_first": 21,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 9,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.25,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 22,
+      "zone": "Z1",
+      "ranked_first": 6,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 22,
+      "zone": "Z2",
+      "ranked_first": 3,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 22,
+      "zone": "Z4",
+      "ranked_first": 17,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 17,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.25
+        },
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -1.0
+        }
+      ]
+    },
+    {
+      "step": 22,
+      "zone": "Z5",
+      "ranked_first": 15,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 15,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 22,
+      "zone": "Z6",
+      "ranked_first": 21,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 5,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 9,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.4,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.09999999999999998
+        }
+      ]
+    },
+    {
+      "step": 23,
+      "zone": "Z1",
+      "ranked_first": 6,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 23,
+      "zone": "Z4",
+      "ranked_first": 17,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 17,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.5,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.25
+        },
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.5,
+            "maneuver": 0.0,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 23,
+      "zone": "Z4",
+      "ranked_first": 0,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 23,
+      "zone": "Z5",
+      "ranked_first": 15,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 15,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 23,
+      "zone": "Z6",
+      "ranked_first": 21,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 6,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 9,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.5,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "zone": "Z1",
+      "ranked_first": 6,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 5,
+            "maneuver": 0.0,
+            "exit_competition": 1,
+            "path_conflict": 2
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 2
+          },
+          "scaled": {
+            "waiting": 0.2,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.3
+        },
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 1,
+            "path_conflict": 2
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -1.25
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "zone": "Z1",
+      "ranked_first": 1,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.75
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "zone": "Z4",
+      "ranked_first": 0,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "zone": "Z5",
+      "ranked_first": 15,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 15,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "zone": "Z6",
+      "ranked_first": 21,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 7,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 9,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.5714285714285714,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0714285714285714
+        }
+      ]
+    },
+    {
+      "step": 24,
+      "zone": "Z6",
+      "ranked_first": 9,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 9,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 25,
+      "zone": "Z1",
+      "ranked_first": 1,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.5,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 25,
+      "zone": "Z4",
+      "ranked_first": 0,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 26,
+      "zone": "Z1",
+      "ranked_first": 1,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.6666666666666666,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.08333333333333337
+        }
+      ]
+    },
+    {
+      "step": 26,
+      "zone": "Z2",
+      "ranked_first": 20,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 20,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 26,
+      "zone": "Z4",
+      "ranked_first": 0,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 26,
+      "zone": "Z5",
+      "ranked_first": 8,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 8,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 26,
+      "zone": "Z6",
+      "ranked_first": 10,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 10,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -1.0
+        },
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -1.5
+        }
+      ]
+    },
+    {
+      "step": 27,
+      "zone": "Z1",
+      "ranked_first": 1,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.75,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 27,
+      "zone": "Z4",
+      "ranked_first": 0,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 5,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 27,
+      "zone": "Z5",
+      "ranked_first": 8,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 8,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 27,
+      "zone": "Z6",
+      "ranked_first": 10,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 10,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.0
+        },
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 1,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 1.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 27,
+      "zone": "Z6",
+      "ranked_first": 13,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 28,
+      "zone": "Z1",
+      "ranked_first": 1,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 1,
+          "raw": {
+            "waiting": 5,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.8,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.050000000000000044
+        }
+      ]
+    },
+    {
+      "step": 28,
+      "zone": "Z1",
+      "ranked_first": 2,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 28,
+      "zone": "Z4",
+      "ranked_first": 16,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 16,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 28,
+      "zone": "Z6",
+      "ranked_first": 13,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 29,
+      "zone": "Z1",
+      "ranked_first": 2,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 5,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 29,
+      "zone": "Z5",
+      "ranked_first": 4,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 4,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 29,
+      "zone": "Z6",
+      "ranked_first": 13,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 30,
+      "zone": "Z1",
+      "ranked_first": 2,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 6,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.25
+        },
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 30,
+      "zone": "Z5",
+      "ranked_first": 4,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 4,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 30,
+      "zone": "Z6",
+      "ranked_first": 13,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 31,
+      "zone": "Z1",
+      "ranked_first": 2,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 7,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 2
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.25
+        },
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 2
+          },
+          "scaled": {
+            "waiting": 0.14285714285714285,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.35714285714285715
+        },
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 2
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 31,
+      "zone": "Z4",
+      "ranked_first": 5,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 5,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 31,
+      "zone": "Z5",
+      "ranked_first": 23,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 23,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 31,
+      "zone": "Z6",
+      "ranked_first": 13,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 5,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 32,
+      "zone": "Z1",
+      "ranked_first": 2,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 8,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 2
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.25
+        },
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 2
+          },
+          "scaled": {
+            "waiting": 0.25,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.25
+        },
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 2
+          },
+          "scaled": {
+            "waiting": 0.125,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": -0.375
+        }
+      ]
+    },
+    {
+      "step": 32,
+      "zone": "Z1",
+      "ranked_first": 22,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.5,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 32,
+      "zone": "Z5",
+      "ranked_first": 23,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 23,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 32,
+      "zone": "Z6",
+      "ranked_first": 13,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 13,
+          "raw": {
+            "waiting": 6,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 33,
+      "zone": "Z1",
+      "ranked_first": 22,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.6666666666666666,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.16666666666666663
+        }
+      ]
+    },
+    {
+      "step": 33,
+      "zone": "Z3",
+      "ranked_first": 21,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 33,
+      "zone": "Z5",
+      "ranked_first": 23,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 23,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 34,
+      "zone": "Z1",
+      "ranked_first": 22,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.75,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.25
+        }
+      ]
+    },
+    {
+      "step": 34,
+      "zone": "Z2",
+      "ranked_first": 15,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 15,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 34,
+      "zone": "Z6",
+      "ranked_first": 14,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 14,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 35,
+      "zone": "Z1",
+      "ranked_first": 22,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 22,
+          "raw": {
+            "waiting": 5,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 1
+          },
+          "scaled": {
+            "waiting": 0.8,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 1.0
+          },
+          "score": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "step": 35,
+      "zone": "Z1",
+      "ranked_first": 3,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 4,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 35,
+      "zone": "Z2",
+      "ranked_first": 6,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 36,
+      "zone": "Z1",
+      "ranked_first": 3,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 5,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 36,
+      "zone": "Z2",
+      "ranked_first": 6,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 37,
+      "zone": "Z1",
+      "ranked_first": 3,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 6,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        },
+        {
+          "robot": 18,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 37,
+      "zone": "Z2",
+      "ranked_first": 6,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 37,
+      "zone": "Z4",
+      "ranked_first": 8,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 8,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 38,
+      "zone": "Z1",
+      "ranked_first": 3,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 7,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        },
+        {
+          "robot": 18,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.14285714285714285,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.35714285714285715
+        }
+      ]
+    },
+    {
+      "step": 39,
+      "zone": "Z1",
+      "ranked_first": 3,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 8,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        },
+        {
+          "robot": 18,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.25,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 39,
+      "zone": "Z1",
+      "ranked_first": 18,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 18,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 41,
+      "zone": "Z1",
+      "ranked_first": 17,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 17,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        },
+        {
+          "robot": 20,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 42,
+      "zone": "Z1",
+      "ranked_first": 17,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 17,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        },
+        {
+          "robot": 20,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 42,
+      "zone": "Z2",
+      "ranked_first": 2,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 2,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 43,
+      "zone": "Z1",
+      "ranked_first": 20,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 20,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 43,
+      "zone": "Z3",
+      "ranked_first": 15,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 15,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 43,
+      "zone": "Z4",
+      "ranked_first": 23,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 23,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 44,
+      "zone": "Z1",
+      "ranked_first": 0,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 44,
+      "zone": "Z2",
+      "ranked_first": 21,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 45,
+      "zone": "Z1",
+      "ranked_first": 0,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 45,
+      "zone": "Z2",
+      "ranked_first": 21,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 46,
+      "zone": "Z2",
+      "ranked_first": 21,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 2,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 47,
+      "zone": "Z2",
+      "ranked_first": 21,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 21,
+          "raw": {
+            "waiting": 3,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.5
+        }
+      ]
+    },
+    {
+      "step": 47,
+      "zone": "Z3",
+      "ranked_first": 6,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 1.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 1.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.5
+        }
+      ]
+    },
+    {
+      "step": 48,
+      "zone": "Z2",
+      "ranked_first": 18,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 18,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 50,
+      "zone": "Z4",
+      "ranked_first": 3,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 3,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 51,
+      "zone": "Z2",
+      "ranked_first": 17,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 17,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 52,
+      "zone": "Z2",
+      "ranked_first": 17,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 17,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "step": 54,
+      "zone": "Z2",
+      "ranked_first": 0,
+      "blocked": true,
+      "candidates": [
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 55,
+      "zone": "Z2",
+      "ranked_first": 0,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 0,
+          "raw": {
+            "waiting": 1,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 1.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "step": 56,
+      "zone": "Z6",
+      "ranked_first": 6,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 6,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.0,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.0,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "step": 58,
+      "zone": "Z3",
+      "ranked_first": 18,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 18,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    },
+    {
+      "step": 62,
+      "zone": "Z3",
+      "ranked_first": 17,
+      "blocked": false,
+      "candidates": [
+        {
+          "robot": 17,
+          "raw": {
+            "waiting": 0,
+            "maneuver": 0.5,
+            "exit_competition": 0,
+            "path_conflict": 0
+          },
+          "scaled": {
+            "waiting": 0.0,
+            "maneuver": 0.5,
+            "exit_competition": 0.0,
+            "path_conflict": 0.0
+          },
+          "score": -0.25
+        }
+      ]
+    }
+  ]
+}

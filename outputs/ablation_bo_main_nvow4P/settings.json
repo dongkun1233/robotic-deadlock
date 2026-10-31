@@ -1,0 +1,22 @@
+{
+  "train_file": "final_output/basic_one_factor_sensitivity/train_scenarios_400.csv",
+  "test_file": "outputs/ablation_bo_main_nvow4P/test_scenarios/transfer_test_scenarios_all_layouts.csv",
+  "train_count": 400,
+  "test_count": 240,
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "evaluations_per_model_per_seed": 12,
+  "initial_random_evaluations": 4,
+  "candidate_count": 256,
+  "settings": {
+    "max_steps": 1500,
+    "corridor_length": 8,
+    "west_exit_extension": 0,
+    "admission_window_steps": 2,
+    "shared_area_capacity": 2
+  },
+  "note": "Exploratory independent test. Keep results separate from final confirmatory evaluation."
+}
