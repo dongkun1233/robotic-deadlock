@@ -1,0 +1,17 @@
+{
+  "split": "train",
+  "observed_runs": 160,
+  "control_replays": 160,
+  "instrumentation_preserves_trajectories": true,
+  "all_wait_steps_accounted": true,
+  "validation_or_test_simulated": false,
+  "selected_basic_seed": 404,
+  "selected_basic_evaluation": 21,
+  "selected_basic_weights": {
+    "waiting": 0.6547162953924675,
+    "maneuver": 0.06970064013910732,
+    "exit_competition": 0.7468916154977677,
+    "path_conflict": -0.0929586360210628
+  },
+  "scope": "Decision attempts repeat within scenarios; feature variation and correlation do not prove a performance benefit."
+}

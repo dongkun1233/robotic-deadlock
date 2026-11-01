@@ -1,0 +1,11 @@
+family,penalty,mean_steps,mean_wait,worst_wait,timeouts
+waiting_downstream,0.0,84.175,12.566666666666666,66,0
+waiting_downstream,0.25,84.15,12.547916666666667,66,0
+waiting_downstream,0.5,84.15,12.545572916666666,66,0
+waiting_downstream,1.0,84.0375,12.530208333333334,63,0
+waiting_downstream,2.0,84.0375,12.5015625,64,0
+full_downstream,0.0,83.475,12.5265625,67,0
+full_downstream,0.25,83.525,12.533854166666666,67,0
+full_downstream,0.5,83.625,12.528385416666667,64,0
+full_downstream,1.0,83.6875,12.531510416666666,62,0
+full_downstream,2.0,83.875,12.483072916666666,66,0

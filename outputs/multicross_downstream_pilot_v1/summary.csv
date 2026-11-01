@@ -1,0 +1,4 @@
+policy,episodes,mean_steps,timeouts,mean_wait,worst_wait
+fcfs,80,84.175,0,12.566666666666666,66
+heuristic,80,83.475,0,12.5265625,67
+downstream,80,85.0625,0,12.350520833333334,69

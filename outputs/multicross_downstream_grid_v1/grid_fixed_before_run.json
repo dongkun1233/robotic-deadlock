@@ -1,0 +1,23 @@
+{
+  "split": "train",
+  "penalties": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0
+  ],
+  "families": [
+    "waiting_downstream",
+    "full_downstream"
+  ],
+  "full_weights": {
+    "waiting": 0.6547162953924675,
+    "maneuver": 0.06970064013910732,
+    "exit_competition": 0.7468916154977677,
+    "path_conflict": -0.0929586360210628
+  },
+  "objective": "Completion then mean makespan; report wait separately",
+  "validation_or_test_allowed": false,
+  "source_sha256": "9d6b3bbefdedcee2bdd3b7c54910bd727a932a2129270982e9242826c2d2a313"
+}

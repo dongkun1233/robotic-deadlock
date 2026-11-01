@@ -1,0 +1,13 @@
+{
+  "split": "train",
+  "episodes": 240,
+  "baseline_control_replays": 160,
+  "baseline_trajectories_unchanged": true,
+  "validation_or_test_simulated": false,
+  "full_weights_selected_on_training_only": true,
+  "source_hashes": {
+    "rware/agv_multicross_downstream_pilot.py": "48ab43e3401b8c0b6c76b219a02825768889bc5a59a69368a61dc633d947e4ab",
+    "rware/agv_multicross_downstream_features.py": "8235a23cba4d4596327d98f01cf9c6c3b04e48b2dabc4d80911726181f05c458"
+  },
+  "interpretation": "Exploratory training comparison; full policy has already been fitted here. No held-out improvement claim."
+}

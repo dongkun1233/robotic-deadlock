@@ -1,0 +1,9 @@
+{
+  "episodes": 800,
+  "expected": 800,
+  "duplicate_keys": 0,
+  "timeouts": 0,
+  "zero_penalty_trajectories_preserved": true,
+  "validation_or_test_simulated": false,
+  "scope": "Exploratory training-only grid; no independent efficacy claim."
+}

@@ -1,0 +1,92 @@
+{
+  "status": "proposal_for_future_training_not_tested_as_an_initializer",
+  "features": [
+    "waiting",
+    "maneuver",
+    "exit_competition",
+    "path_conflict"
+  ],
+  "initial_candidates": [
+    {
+      "source": "FCFS_anchor",
+      "weights": {
+        "waiting": 1.0,
+        "maneuver": 0.0,
+        "exit_competition": 0.0,
+        "path_conflict": 0.0
+      },
+      "objective": 84.175,
+      "seed": null,
+      "evaluation": null
+    },
+    {
+      "source": "previous_training_random_search",
+      "weights": {
+        "waiting": 0.6547162953924675,
+        "maneuver": 0.06970064013910732,
+        "exit_competition": 0.7468916154977677,
+        "path_conflict": -0.0929586360210628
+      },
+      "objective": 83.475,
+      "seed": 404,
+      "evaluation": 21
+    },
+    {
+      "source": "previous_training_random_search",
+      "weights": {
+        "waiting": 0.6785300154600947,
+        "maneuver": 0.06640052229818638,
+        "exit_competition": -0.42732714011069123,
+        "path_conflict": -0.5937840550933221
+      },
+      "objective": 83.5125,
+      "seed": 101,
+      "evaluation": 8
+    },
+    {
+      "source": "previous_training_random_search",
+      "weights": {
+        "waiting": 0.5432292887505957,
+        "maneuver": 0.1480725690492105,
+        "exit_competition": 0.4749185686878236,
+        "path_conflict": 0.6763348336838773
+      },
+      "objective": 83.5125,
+      "seed": 101,
+      "evaluation": 69
+    },
+    {
+      "source": "previous_training_random_search",
+      "weights": {
+        "waiting": 0.4860256018300272,
+        "maneuver": 0.3356681005571577,
+        "exit_competition": 0.1301552465368322,
+        "path_conflict": 0.7963451842216706
+      },
+      "objective": 83.55,
+      "seed": 101,
+      "evaluation": 18
+    },
+    {
+      "source": "previous_training_random_search",
+      "weights": {
+        "waiting": 0.4161821954290127,
+        "maneuver": 0.011872278604291396,
+        "exit_competition": 0.21417887183433232,
+        "path_conflict": -0.8836169079801505
+      },
+      "objective": 83.5625,
+      "seed": 303,
+      "evaluation": 37
+    }
+  ],
+  "selection_rule": "FCFS plus training-objective-ranked random-search vectors, cosine similarity below 0.98 to all already selected vectors",
+  "parent_checkpoint_sha256": "e5411075b349a8d2c2c123a27d563d0cf1d3698c94d6af735233b9098c19e66d",
+  "manifest_sha256": "90c2eb4e9a56d8ce2d8a2dea444190e05e613c6a565894636448e802f29730f6",
+  "simulator_source_sha256": "a373b5608c5204551ff04100ecd49ce143282aff596b87870deb40f97a9bfebd",
+  "prior_random_objective_evaluations": 360,
+  "prior_random_episode_evaluations": 28800,
+  "additional_simulations": 0,
+  "validation_or_test_used_for_selection": false,
+  "fair_comparison_requirement": "All compared optimizers, including random continuation, receive the same bank. Charge the common 360-evaluation construction stage, or clearly report continuation performance conditional on this already available bank. Do not compare standalone random72 vs warm360+BO72 as equal-total-budget."
+}

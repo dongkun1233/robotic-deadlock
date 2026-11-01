@@ -1,0 +1,3 @@
+comparison,mean_steps_difference,faster,same,slower
+downstream_minus_fcfs,0.8875,15,33,32
+downstream_minus_heuristic,1.5875,16,21,43

@@ -1,0 +1,1 @@
+Training-only diagnostic/proposal. See docs/multicross_downstream_and_initialization_20261101.md. No validation or final-test simulation in this stage. Feature variation and selected training performance are not independent efficacy evidence.
