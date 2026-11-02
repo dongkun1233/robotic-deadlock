@@ -1,0 +1,22 @@
+{
+  "unit_tests_passed": 16,
+  "new_physics_tests": 5,
+  "duration_checks_seconds": {
+    "one_cell": 1.875,
+    "four_cells": 7.5,
+    "turn90": 2.0707963267948966,
+    "turn180": 3.641592653589793
+  },
+  "body_radius_m": 0.477238148097991,
+  "proposed_safety_margin_m": 0.1,
+  "reserved_radius_m": 0.577238148097991,
+  "safety_margin_is_research_assumption": true,
+  "traffic_event_engine_implemented": false,
+  "new_multi_agv_experiments_run": false,
+  "teammate_review_commit": "f7240040f2b88a3a02462c3c78eb68c66a4cc9a0",
+  "source_sha256": {
+    "rware/agv_physical_time.py": "42a9eca9fbdc154ca84091bc689b368cfdd3811a5eda47d4ecee4cd4368175a4",
+    "configs/agv_physical_time_v1.json": "65a42f2ae99ba6d9ec4432dbdf0787e2c0236f5f3e8608345a183e7654887879",
+    "tests/test_agv_physical_time.py": "ff5d88765093af75a52a013a78a9c026bcade2a7a62a4729454a117f13fcb007"
+  }
+}
