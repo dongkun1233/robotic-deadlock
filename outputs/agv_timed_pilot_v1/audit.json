@@ -1,0 +1,30 @@
+{
+  "charged_objective_calls": 486,
+  "charged_training_episodes": 5832,
+  "retained_complete_episode_records": 5328,
+  "storage_recovery_replayed_episodes": 3,
+  "execution_count_note": "See storage_recovery.json for any replays of missing saved rows; recorded CPU totals exclude lost original-attempt timings.",
+  "all_recorded_completed": 5328,
+  "cpu_seconds_recorded": 2642.9445124159997,
+  "mean_cpu_s_per_episode": 0.49604814422222215,
+  "provisional_final_scenarios_by_layout": {
+    "single": 372,
+    "double": 216,
+    "multi": 1248
+  },
+  "provenance": {
+    "scripts/analyze_agv_timed_pilot.py": "eeb45bf65b8996e70db84231680e84b9b3585702ff08f9e909292b2e5c2b6d83",
+    "scripts/evaluate_agv_timed_pilot.py": "13169b8f769f1035de64a6e895bb653b9d67ba697ac1384d0b53c1c892fb0e6b",
+    "scripts/prepare_agv_timed_pilot.py": "887939255b23f5aaaaeda38669c8b91198aace73bf26becc87fb6d8cbe7108a5",
+    "scripts/run_agv_timed_pilot.py": "34c07fbe47b8dddd9cf8367f0a41d0d2c4563e81057d18491745159a4f581f8b"
+  },
+  "final_test_evaluated": false,
+  "limitations": [
+    "Differences are normalized by layout development FCFS mean (constant denominator), matching mean-makespan comparisons.",
+    "Planning SD uses the maximum of paired SD, pooled within-cell SD, and bootstrap 90th-percentile SD (10000 resamples, seed 67890).",
+    "Normal approximation with only 24 development scenarios/layout; not a guarantee of power.",
+    "Optimizer-seed uncertainty and training-set changes require reassessment before final lock.",
+    "No final significance claims; scenario repetitions across optimizer seeds are paired.",
+    "Runtime timings under concurrent workload are not optimizer speed comparisons."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "replayed_episodes": [
+    {
+      "record": "development/single_basic_202.json",
+      "scenario_id": "pilot_development_single_c11_01",
+      "reason": "completed process log but last saved row absent; replayed deterministically to restore record"
+    },
+    {
+      "record": "development/multi_fcfs.json",
+      "scenario_id": "pilot_development_multi_c11_01",
+      "reason": "completed process log but last saved row absent; replayed deterministically to restore record"
+    },
+    {
+      "record": "baselines/multi_waiting_equivalence.json",
+      "scenario_id": "pilot_train_multi_c11_00",
+      "reason": "completed process log but last saved row absent; replayed deterministically to restore record"
+    }
+  ],
+  "original_attempt_timing_available": false
+}

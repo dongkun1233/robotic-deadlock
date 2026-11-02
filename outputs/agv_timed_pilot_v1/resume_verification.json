@@ -1,0 +1,12 @@
+{
+  "runner": "python -m scripts.run_agv_timed_pilot --output-dir outputs/agv_timed_pilot_v1",
+  "exit_code": 0,
+  "charged_calls_before": 486,
+  "charged_calls_after": 486,
+  "retained_episode_records_before": 5328,
+  "retained_episode_records_after": 5328,
+  "recorded_cpu_seconds_before": 2642.9445124159997,
+  "recorded_cpu_seconds_after": 2642.9445124159997,
+  "additional_simulations_on_resume": 0,
+  "final_test_evaluated": false
+}
