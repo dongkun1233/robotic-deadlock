@@ -1,0 +1,18 @@
+{
+  "scenario_selection": "All six original 24-robot, seed101 diagnostic cases across three layouts and two release windows",
+  "dt_s": 0.005,
+  "comparison_dt_s": 0.01,
+  "policies": [
+    "fcfs",
+    "heuristic",
+    "strict_fcfs"
+  ],
+  "purpose": "Extra discretization check, not an optimizer performance test",
+  "source_sha256": {
+    "rware/agv_timed_simulation.py": "1700161951f9bb812bdf39cf2cdd99c76d76659d87cca2886e32287567f13779",
+    "rware/agv_physical_time.py": "42a9eca9fbdc154ca84091bc689b368cfdd3811a5eda47d4ecee4cd4368175a4",
+    "rware/agv_layouts.py": "817dce8bbfac5513939593ae868e5e88c5feaac8e35d73e3506f26894a93b7d0",
+    "rware/agv_multicross_layout.py": "012fc3fb0e98c99c86b940e27a692e43cab2239ff722656803e560b74a9cd015",
+    "rware/agv_multicross_policy_simulation.py": "612732141d7e4c323eca8f2b289e05382028a872a1df42643e8114aa18fe04b2"
+  }
+}

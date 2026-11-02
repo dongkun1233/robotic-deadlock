@@ -1,0 +1,7 @@
+{
+  "runs": 18,
+  "incomplete": 0,
+  "max_absolute_dt001_vs_dt0005_difference_pct": 0.2630842429331093,
+  "ordering_reversals": [],
+  "scope": "Six loaded diagnostic cases, not proof of convergence across arbitrary traffic and weights."
+}

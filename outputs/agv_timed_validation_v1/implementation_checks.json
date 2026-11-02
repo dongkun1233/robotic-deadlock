@@ -1,0 +1,8 @@
+{
+  "unit_tests_passed": 26,
+  "engine_tests": 10,
+  "source_matches_executed_protocol": true,
+  "summary_recomputed_from_raw": true,
+  "no_optimizer_training": true,
+  "prior_final_test_reused": false
+}

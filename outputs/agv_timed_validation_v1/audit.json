@@ -1,0 +1,15 @@
+{
+  "runs": 162,
+  "expected_runs": 162,
+  "unique_scenarios": 18,
+  "duplicates": 0,
+  "incomplete_runs": 0,
+  "all_safety_assertions_passed": true,
+  "max_absolute_dt01_relative_error_pct": 1.0613207547169878,
+  "dt01_ordering_reversals": 0,
+  "dt01_passes_predeclared_rule": false,
+  "clock_recommendation_s": 0.01,
+  "reference_dt_s": 0.01,
+  "validation_scope": "Engineering diagnostic scenarios only, no training, optimization or prior held-out test reused",
+  "elapsed_seconds": 44.15614152799981
+}
