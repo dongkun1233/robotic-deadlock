@@ -1,0 +1,9 @@
+{
+  "unittest_count": 26,
+  "unittest_passed": 26,
+  "pilot_split_budget_initialization_penalty_checks": "passed",
+  "baseline_equivalence_cases": 36,
+  "baseline_equivalence_passed": 36,
+  "protocol_commit_before_fit": "614ae43116d21f55fe7b6443954931ffa7d8dee8",
+  "final_test_evaluated": false
+}
