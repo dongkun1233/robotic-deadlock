@@ -1,0 +1,10 @@
+{
+  "complete": true,
+  "train_fits": 9,
+  "evaluations_per_fit": 30,
+  "optimizer_seed": 101,
+  "development_policy_rows": 960,
+  "independent_development_scenarios": 48,
+  "final_test_generated": false,
+  "final_test_evaluated": false
+}
