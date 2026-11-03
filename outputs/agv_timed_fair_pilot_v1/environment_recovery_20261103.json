@@ -1,0 +1,14 @@
+{
+  "recorded_utc": "2026-11-03T06:11:58.347938+00:00",
+  "event": "Runner process absent after execution environment disconnect; resumed from durable episode checkpoints",
+  "original_unpersisted_attempt_cpu_seconds": null,
+  "cost_limit": "Completed worker results not persisted before interruption may have been replayed. Their original compute cost is unavailable; retained-record CPU is not total end-to-end cost.",
+  "observed_trials_after_resume": {
+    "fair20_basic_101": 30,
+    "plain_basic_101": 30,
+    "plain_bo_101": 30,
+    "fair20_bo_101": 19,
+    "plain_pso_101": 30
+  },
+  "last_confirmed_pre_disconnect_trial": "fair20_bo_101:16"
+}
