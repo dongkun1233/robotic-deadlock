@@ -1,0 +1,9 @@
+{
+  "new_tests": 7,
+  "total_tests": 33,
+  "source_engine_unchanged_from_pilot": true,
+  "new_train_scenarios": 144,
+  "new_development_scenarios": 144,
+  "final_test_scenarios": 0,
+  "calibration_access": "main_train only"
+}
