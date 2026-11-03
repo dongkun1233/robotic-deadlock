@@ -1,0 +1,80 @@
+{
+  "protocol": "teammate_fair_priority_multicross_pilot_v1",
+  "teammate_repository": "poketmon2004-droid/robotic-deadlock-fairness",
+  "teammate_commit": "f7240040f2b88a3a02462c3c78eb68c66a4cc9a0",
+  "main_manifest": "outputs/agv_timed_main_v1/manifest.json",
+  "main_manifest_sha256": "d8ffbb597c26f5d655a8be18b50ccbc53d2b1931fe2687716eb0219eeeabb429",
+  "common_initial_vectors": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.43314808182420994,
+      0.346518465459368,
+      0.519777698189052,
+      0.6497221227363149
+    ],
+    [
+      0.4934679429111029,
+      -0.5594797575321178,
+      0.6659099048395886,
+      -0.005982379745334433
+    ],
+    [
+      0.3692764313564469,
+      -0.33452823204784604,
+      -0.8666295957008633,
+      -0.026056152113230063
+    ],
+    [
+      0.6791799031611782,
+      0.13346798088310002,
+      -0.6610085905087306,
+      0.2897733605675689
+    ],
+    [
+      0.87831625427201,
+      0.19759168552034403,
+      0.2542064421949454,
+      -0.3534079343215193
+    ]
+  ],
+  "fixed4_vector": [
+    0.43314808182420994,
+    0.346518465459368,
+    0.519777698189052,
+    0.6497221227363149
+  ],
+  "optimizer_seed": 101,
+  "methods": [
+    "basic",
+    "bo",
+    "pso"
+  ],
+  "budget": 30,
+  "thresholds_s": [
+    null,
+    20.0,
+    40.0
+  ],
+  "train_scenarios": 48,
+  "development_scenarios": 48,
+  "final_test_scenarios": 0,
+  "reuse_validation_sample": 24,
+  "source_sha256": {
+    "rware/agv_timed_fair_simulation.py": "c0cdb389d90bc6b1e8b03a295615830e62f457e4cdb2914b0148fe19a18abe73",
+    "rware/agv_timed_simulation.py": "1700161951f9bb812bdf39cf2cdd99c76d76659d87cca2886e32287567f13779",
+    "rware/agv_multicross_policy_simulation.py": "612732141d7e4c323eca8f2b289e05382028a872a1df42643e8114aa18fe04b2",
+    "rware/agv_physical_time.py": "42a9eca9fbdc154ca84091bc689b368cfdd3811a5eda47d4ecee4cd4368175a4",
+    "scripts/run_multicross_search.py": "c681a9b41b90ef253f0d63e90f301430150703c84438e4fb936525cb84b786a1",
+    "scripts/agv_timed_main_common.py": "44a75d6ab71a76ae12d643cb489b3449bcad8f9fe7636cff279c0a00f9a9a150",
+    "scripts/run_agv_timed_fair_pilot.py": "f6f77fe5e4f35c4fe915a7b8e44d38f6682c74180768b19573ec54fa43f56008"
+  },
+  "analysis_sha256": "ab3c8c3c444fe8eea968fd32821b68b80ce207bfebdd3afdb103b30763e07618",
+  "objective": "incomplete_scenarios*1201 + mean_capped_makespan_seconds",
+  "metrics": "makespan; per-robot sum of local entry waits, stationary waits separately",
+  "scope": "Pilot: one seed; paired same-weights rule overlay and protection-on retraining; existing optimizers unchanged"
+}

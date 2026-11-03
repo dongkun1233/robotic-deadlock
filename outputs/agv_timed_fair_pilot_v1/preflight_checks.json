@@ -1,0 +1,9 @@
+{
+  "previous_tests_passed": 34,
+  "new_fair_tests_passed": 9,
+  "combined_test_count": 43,
+  "baseline_engine_source_unchanged": true,
+  "reference_priority_comparison_random_cases": 1000,
+  "protection_off_physics_parity": true,
+  "zero_threshold_fcfs_equivalence": true
+}
