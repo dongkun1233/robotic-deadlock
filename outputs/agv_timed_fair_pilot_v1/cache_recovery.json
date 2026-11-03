@@ -1,0 +1,447 @@
+{
+  "repairs": [
+    {
+      "split": "train",
+      "cache": "2746a2d0073473374f869990fe15620829f79451fab081d984c621e3707969d6.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "59c1350231dce7bf5d9d1daced3e018127e8e49d8f7d164aafddae39e49b8cba.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "5d043d8b59c80a2702d57ff3bf7501a3d7d3d648d1144afe84e3894e29a3efb1.json",
+      "retained_before": 46,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "71fd33be87ad5f08625f7fea40ea0425c12200becb5efa15c7d8178ef6c66fb6.json",
+      "retained_before": 48,
+      "retained_after": 48,
+      "newly_recovered_scenarios": []
+    },
+    {
+      "split": "train",
+      "cache": "833ebcabf6a1ea0dc094308298d360cd09f65c771e104dbc6a723224d809fb31.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "8fe2925aea4305a568ac0ffbf7df3051ea5aef552e77aee01922e78f703cb6f5.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "9f9df76ff485b02a94d698857ad55c7a55c4fbf94c13afccabffb477a5d0cd4f.json",
+      "retained_before": 46,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "ad5055b0b40d11478a21db0986364b3b4dd90924c12a804f3f58d0ee1b2ee7b1.json",
+      "retained_before": 44,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "ecf9f579a24ce703617289ec630852856f083db542bcf68706d9f7d193a1d209.json",
+      "retained_before": 46,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "ed6af0cc32661a9ba36875085f1269fb635b21939c736114c61fcc136aa4eb98.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "f16d24b5dd57fa074c95cc9e89e382fd3d7fadbaf2fa17b35c70fc895a37ccfc.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "f661215f0c933d1c63028ed9aa9238d3b5c8a203579a3f50ced391ca0561adba.json",
+      "retained_before": 44,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "015a85beefb77a3e64fb9a0075298d5c4710b7d756bd6b1ad08740274f644350.json",
+      "retained_before": 45,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "0569a7b182737483f23cabf5e41be75d4b50328314e1f6925f381639f80e976f.json",
+      "retained_before": 45,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "0c0ee879e228888cd4521ec67391f71e0f76719d722fa2cb296e905cd6bc92a5.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "1ef54f5ace76cb921118dcc8493e25cc70aedeb73d0fdf7026ca6b16563f42db.json",
+      "retained_before": 43,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c10_r03",
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "2ae8013330bb608cd457114553bba8b348fecaa096eeb18872ed9c47687d6b87.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "2fe800170ebbf4b1541c026eca00f21165059bfc1a5265ba11da610ec8e721a2.json",
+      "retained_before": 46,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "3f376e2519becd5ebf3950315f785256746b2da389e3460905ec3e8e22c65e1d.json",
+      "retained_before": 43,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c10_r03",
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "59b3404117507354febad7908fd0018d09ec85af4346ee5036e3c0ba6a4f5677.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "5fbb53816fe416838186471a50bb3f0d5b95fdb55ed81bdc1041b12ed174cdb2.json",
+      "retained_before": 25,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c06_r01",
+        "main_train_multi_c06_r02",
+        "main_train_multi_c06_r03",
+        "main_train_multi_c07_r00",
+        "main_train_multi_c07_r01",
+        "main_train_multi_c07_r02",
+        "main_train_multi_c07_r03",
+        "main_train_multi_c08_r00",
+        "main_train_multi_c08_r01",
+        "main_train_multi_c08_r02",
+        "main_train_multi_c08_r03",
+        "main_train_multi_c09_r00",
+        "main_train_multi_c09_r01",
+        "main_train_multi_c09_r02",
+        "main_train_multi_c09_r03",
+        "main_train_multi_c10_r00",
+        "main_train_multi_c10_r01",
+        "main_train_multi_c10_r02",
+        "main_train_multi_c10_r03",
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "6db520bf1abda3c6fc5f5aaf7b0809376b79e38a3a5442d236cc4777c823a40a.json",
+      "retained_before": 44,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "825092195ef88d007b8ce469d905f138ad286e60b761bf37b3f977a45e68cefa.json",
+      "retained_before": 43,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c10_r03",
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "852398a1bd6a4db8c2bbf971e0b256e050aa6c6a998ecc0a4ca356f4c984607a.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "a933138259b12b7558d15e50e7033d19aa6407674a5ab47d7c9c1e7e3b043b37.json",
+      "retained_before": 44,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "a9c06d7403c95208549318625f71b35e8184f792ac11513f1c4b82392638104b.json",
+      "retained_before": 45,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "b045a69d4d4967a392fb0ae83ab153b9d21d399643b0795aaa82c1432547e356.json",
+      "retained_before": 45,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "b20867ba501377277dbda30fc1673099db3276ac4ee84969ceeee7303d9219b5.json",
+      "retained_before": 46,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "b458c06074723c9d537ab9c012d6855a1f7424d04647a75186461994f0c571ab.json",
+      "retained_before": 44,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "bf1b8b7b98ac16df3c8aaa027e421bbc296d0e1b8d44313e8eed748769557ec6.json",
+      "retained_before": 45,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "bf921a22a2274a39412d980e6c6d91d4f994fe641f56240dc9447071337ddcf5.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "c237bd62037311a8039e69a8843e01bdd83c9d5ced0451e92fe1a7105316d27f.json",
+      "retained_before": 39,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c09_r03",
+        "main_train_multi_c10_r00",
+        "main_train_multi_c10_r01",
+        "main_train_multi_c10_r02",
+        "main_train_multi_c10_r03",
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "c5cb895992a8a073497ee954073cd60d6ae01caaa21f251d65a056c550e288a8.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "cda67d2f493972cea613aaaa897ab0eb52508fbb722485c93a6eaf1842e29850.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "f13e7e495b1776b9e3121f91ba299512315097876d1467f89bd5284c2546c90c.json",
+      "retained_before": 47,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "train",
+      "cache": "fd3c335226c6433a9358ad7addcd2d02bd29560d1e0d2432e0cddd28f87681bb.json",
+      "retained_before": 26,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_train_multi_c06_r02",
+        "main_train_multi_c06_r03",
+        "main_train_multi_c07_r00",
+        "main_train_multi_c07_r01",
+        "main_train_multi_c07_r02",
+        "main_train_multi_c07_r03",
+        "main_train_multi_c08_r00",
+        "main_train_multi_c08_r01",
+        "main_train_multi_c08_r02",
+        "main_train_multi_c08_r03",
+        "main_train_multi_c09_r00",
+        "main_train_multi_c09_r01",
+        "main_train_multi_c09_r02",
+        "main_train_multi_c09_r03",
+        "main_train_multi_c10_r00",
+        "main_train_multi_c10_r01",
+        "main_train_multi_c10_r02",
+        "main_train_multi_c10_r03",
+        "main_train_multi_c11_r00",
+        "main_train_multi_c11_r01",
+        "main_train_multi_c11_r02",
+        "main_train_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "development",
+      "cache": "f827b2facd1c874f7e9dc412fcc3b0f21ed1fb86950522ef7867d8e5ffb49639.json",
+      "retained_before": 42,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_development_multi_c10_r02",
+        "main_development_multi_c10_r03",
+        "main_development_multi_c11_r00",
+        "main_development_multi_c11_r01",
+        "main_development_multi_c11_r02",
+        "main_development_multi_c11_r03"
+      ]
+    },
+    {
+      "split": "development",
+      "cache": "600880c86ec47960f1a37d639607d90394a066dbae96205f82f56853a0df75bd.json",
+      "retained_before": 45,
+      "retained_after": 48,
+      "newly_recovered_scenarios": [
+        "main_development_multi_c11_r01",
+        "main_development_multi_c11_r02",
+        "main_development_multi_c11_r03"
+      ]
+    }
+  ],
+  "cost_limit": "Original CPU cost of records lost before recovery is unavailable; original and recovered attempts are not both represented in retained CPU totals.",
+  "verified_training_objectives": 270,
+  "selection_and_trials_unchanged": true
+}
