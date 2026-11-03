@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "gymnasium": "1.4.0",
+    "networkx": "3.7",
+    "pytest": "9.2.0"
+  },
+  "verification": {
+    "passed_tests": 32,
+    "passed_subtests": 3
+  }
+}
