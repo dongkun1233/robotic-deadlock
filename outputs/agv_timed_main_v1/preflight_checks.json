@@ -1,9 +1,11 @@
 {
-  "new_tests": 7,
-  "total_tests": 33,
+  "new_tests": 8,
+  "total_tests": 34,
   "source_engine_unchanged_from_pilot": true,
   "new_train_scenarios": 144,
   "new_development_scenarios": 144,
   "final_test_scenarios": 0,
-  "calibration_access": "main_train only"
+  "calibration_access": "main_train only",
+  "passed_tests": 34,
+  "search_interrupt_resume_test": "all three methods: partial objective resumed, 66*48 new cases total, zero extra cases on completed replay"
 }

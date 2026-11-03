@@ -1,0 +1,12 @@
+{
+  "resume_exit_code": 0,
+  "initial_weights_identical_on_resume": true,
+  "additional_simulations_on_resume": 0,
+  "retained_episode_records": 3744,
+  "completed_episode_records": 3744,
+  "fcfs_waiting_equivalent_scenarios": 144,
+  "selection_split": "main_train",
+  "source_hashes_match_manifest": true,
+  "development_evaluated": false,
+  "final_test_evaluated": false
+}

@@ -1,0 +1,20 @@
+{
+  "replayed_episodes": [
+    {
+      "record": "calibration/double/random_02.json",
+      "scenario_id": "main_train_double_c11_r03",
+      "reason": "Completed worker reported 48 rows; saved checkpoint retained 47. Replayed missing last row; original timing unavailable."
+    },
+    {
+      "record": "calibration/double/pilot_basic_202.json",
+      "scenario_id": "main_train_double_c11_r03",
+      "reason": "Completed worker reported 48 rows; saved checkpoint retained 47. Replayed missing last row; original timing unavailable."
+    },
+    {
+      "record": "calibration/single/random_01.json",
+      "scenario_id": "main_train_single_c11_r03",
+      "reason": "Completed worker reported 48 rows; saved checkpoint retained 47. Replayed missing last row; original timing unavailable."
+    }
+  ],
+  "original_attempt_timing_available": false
+}

@@ -2,6 +2,11 @@ import copy
 import json
 import sys
 import unittest
+import tempfile
+import hashlib
+import io
+import contextlib
+from unittest.mock import patch
 from pathlib import Path
 import numpy as np
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
@@ -79,5 +84,46 @@ class MainPreparationTests(unittest.TestCase):
             self.assertEqual(len(history) + self.manifest['calibration_candidates_per_layout'], 96)
             histories.append(history[:6])
         self.assertEqual(histories[0], histories[1]);self.assertEqual(histories[1], histories[2])
+
+    def test_real_search_driver_resumes_partial_objective_without_recounting(self):
+        from scripts import train_agv_timed_main as driver
+        base = ROOT / 'outputs/agv_timed_main_v1'
+        if not (base / 'initial_weights.json').exists():
+            self.skipTest('Requires archived calibration output restored')
+        selection = json.loads((base / 'initial_weights.json').read_text())
+        for method in self.manifest['methods']:
+            with self.subTest(method=method), tempfile.TemporaryDirectory() as folder:
+                out = Path(folder)
+                (out / 'manifest.json').write_text('{}')
+                selected = copy.deepcopy(selection)
+                selected['manifest_sha256'] = hashlib.sha256(b'{}').hexdigest()
+                (out / 'initial_weights.json').write_text(json.dumps(selected))
+                for item in selected['selected_by_layout']['single']['candidates']:
+                    path = out / 'calibration/single' / (item['candidate_id'] + '.json')
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                    path.write_bytes((base / 'calibration/single' / path.name).read_bytes())
+                completed_calls = []
+                interrupt = [True]
+                def simulate(layout, case, manifest, policy, vector):
+                    if interrupt[0] and len(completed_calls) == 51:
+                        raise RuntimeError('deliberate interruption within objective')
+                    completed_calls.append(case['scenario_id'])
+                    return dict(scenario_id=case['scenario_id'], missions_sha256=case['missions_sha256'],
+                                status='completed', makespan_s=100+sum(abs(float(v)) for v in vector))
+                argv = ['train', '--manifest', str(out / 'manifest.json'), '--layout', 'single',
+                        '--seed', '101', '--method', method]
+                with patch.object(sys, 'argv', argv), patch.object(driver, 'read_manifest', return_value=self.manifest), \
+                     patch.object(driver, 'run_case', side_effect=simulate), contextlib.redirect_stdout(io.StringIO()):
+                    with self.assertRaisesRegex(RuntimeError, 'deliberate interruption'):
+                        driver.main()
+                    interrupt[0] = False
+                    driver.main()
+                    self.assertEqual(len(completed_calls), 66*48)
+                    before = len(completed_calls)
+                    driver.main()
+                    self.assertEqual(len(completed_calls), before)
+                done = json.loads((out / 'search' / f'single_101_{method}' / 'complete.json').read_text())
+                self.assertEqual(done['trials'], 72)
+                self.assertFalse(done['development_evaluated'])
 
 if __name__ == '__main__': unittest.main()

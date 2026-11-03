@@ -1,0 +1,18 @@
+{
+  "phase": "initial_calibration_complete",
+  "expanded_train_scenarios": 144,
+  "new_development_scenarios_reserved": 144,
+  "calibration_candidates_per_layout": 24,
+  "charged_calibration_calls": 72,
+  "auxiliary_baseline_calls": 6,
+  "retained_episode_records": 3744,
+  "recovery_replayed_episodes": 3,
+  "all_retained_completed": true,
+  "search_started": false,
+  "search_completed": false,
+  "development_evaluated": false,
+  "final_test_generated": false,
+  "final_test_evaluated": false,
+  "next_phase": "search: 45 jobs, 72 calls/job, common frozen six initial candidates",
+  "protocol_commit_before_calibration": "8eee32722f1dfd8e7dcf84b35039e24e285197fc"
+}
