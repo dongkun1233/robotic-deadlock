@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-11-03T10:19:08.203929+00:00",
+  "in_progress": true,
+  "note": "Per-file snapshot while experiments may run; incomplete runs are not final results. Extract archives at repository root. Existing tracked archives also remain authoritative for completed stages. Future uploads authorized by user.",
+  "archives": [
+    {
+      "archive": "research_archives/agv_timed_fair_pilot_v1.tar.gz",
+      "files": 262,
+      "bytes": 2220167,
+      "sha256": "81a2097e07c953004f282798a3f5d3c53ff2edaa4024ce891a63df7584c89050"
+    },
+    {
+      "archive": "research_archives/agv_timed_main_v1.tar.gz",
+      "files": 1098,
+      "bytes": 8324276,
+      "sha256": "cf36901bba46a111dbbcbe4fb4f0a76cfb46da31f90fd199ccd1cf6d65a1034d"
+    }
+  ]
+}
