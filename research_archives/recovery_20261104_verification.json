@@ -1,0 +1,524 @@
+{
+  "source_hashes_match": true,
+  "search_paths_exact": true,
+  "jobs": [
+    {
+      "job": "double_101_basic",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 72,
+      "raw_gaps": []
+    },
+    {
+      "job": "double_101_bo",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 72,
+      "raw_gaps": []
+    },
+    {
+      "job": "double_101_pso",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 72,
+      "raw_gaps": []
+    },
+    {
+      "job": "double_202_basic",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 72,
+      "raw_gaps": []
+    },
+    {
+      "job": "double_202_bo",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 70,
+      "raw_gaps": [
+        {
+          "evaluation": 23,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 37,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "double_202_pso",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 71,
+      "raw_gaps": [
+        {
+          "evaluation": 57,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "double_303_basic",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 71,
+      "raw_gaps": [
+        {
+          "evaluation": 53,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "double_303_bo",
+      "trials": 63,
+      "replay_exact": true,
+      "raw_complete": 62,
+      "raw_gaps": [
+        {
+          "evaluation": 33,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "double_303_pso",
+      "trials": 56,
+      "replay_exact": true,
+      "raw_complete": 55,
+      "raw_gaps": [
+        {
+          "evaluation": 25,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "multi_101_basic",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 72,
+      "raw_gaps": []
+    },
+    {
+      "job": "multi_101_bo",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 71,
+      "raw_gaps": [
+        {
+          "evaluation": 37,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "multi_101_pso",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 72,
+      "raw_gaps": []
+    },
+    {
+      "job": "multi_202_basic",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 72,
+      "raw_gaps": []
+    },
+    {
+      "job": "multi_202_bo",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 72,
+      "raw_gaps": []
+    },
+    {
+      "job": "multi_202_pso",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 72,
+      "raw_gaps": []
+    },
+    {
+      "job": "multi_303_basic",
+      "trials": 45,
+      "replay_exact": true,
+      "raw_complete": 45,
+      "raw_gaps": []
+    },
+    {
+      "job": "multi_303_bo",
+      "trials": 38,
+      "replay_exact": true,
+      "raw_complete": 38,
+      "raw_gaps": []
+    },
+    {
+      "job": "multi_303_pso",
+      "trials": 36,
+      "replay_exact": true,
+      "raw_complete": 35,
+      "raw_gaps": [
+        {
+          "evaluation": 7,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_101_basic",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 68,
+      "raw_gaps": [
+        {
+          "evaluation": 8,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 35,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 38,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 44,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_101_bo",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 68,
+      "raw_gaps": [
+        {
+          "evaluation": 11,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 50,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 56,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 65,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_101_pso",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 61,
+      "raw_gaps": [
+        {
+          "evaluation": 14,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 20,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 22,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 28,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 43,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 47,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 50,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 54,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 55,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 61,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 66,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_202_basic",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 66,
+      "raw_gaps": [
+        {
+          "evaluation": 17,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 32,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 39,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 40,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 58,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 61,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_202_bo",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 67,
+      "raw_gaps": [
+        {
+          "evaluation": 11,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 28,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 42,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 56,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 69,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_202_pso",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 63,
+      "raw_gaps": [
+        {
+          "evaluation": 8,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 11,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 16,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 17,
+          "available_rows": 46
+        },
+        {
+          "evaluation": 33,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 48,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 55,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 60,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 62,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_303_basic",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 66,
+      "raw_gaps": [
+        {
+          "evaluation": 15,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 31,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 38,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 50,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 57,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 68,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_303_bo",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 67,
+      "raw_gaps": [
+        {
+          "evaluation": 20,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 24,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 37,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 46,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 62,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_303_pso",
+      "trials": 72,
+      "replay_exact": true,
+      "raw_complete": 65,
+      "raw_gaps": [
+        {
+          "evaluation": 21,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 27,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 42,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 52,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 57,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 59,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 64,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_404_basic",
+      "trials": 48,
+      "replay_exact": true,
+      "raw_complete": 47,
+      "raw_gaps": [
+        {
+          "evaluation": 10,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_404_bo",
+      "trials": 41,
+      "replay_exact": true,
+      "raw_complete": 38,
+      "raw_gaps": [
+        {
+          "evaluation": 19,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 29,
+          "available_rows": 47
+        },
+        {
+          "evaluation": 37,
+          "available_rows": 47
+        }
+      ]
+    },
+    {
+      "job": "single_404_pso",
+      "trials": 24,
+      "replay_exact": true,
+      "raw_complete": 23,
+      "raw_gaps": [
+        {
+          "evaluation": 13,
+          "available_rows": 47
+        }
+      ]
+    }
+  ],
+  "observations": 1935,
+  "raw_gaps": 70,
+  "final_test_evaluated": false,
+  "remote_base_commit": "7e41d6d4d414aabc18450ac6cc14a811ac475a66",
+  "recovered_jobs": 30,
+  "completed_jobs": 22,
+  "remaining_observations": 1305,
+  "raw_repair_required": true,
+  "independent_final_test_started": false
+}
