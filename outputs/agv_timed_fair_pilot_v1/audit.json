@@ -1,0 +1,31 @@
+{
+  "complete": true,
+  "optimizer_seeds": [
+    101
+  ],
+  "objective_calls": 270,
+  "charged_training_episodes": 12960,
+  "distinct_training_scenarios": 48,
+  "distinct_development_scenarios": 48,
+  "retained_cache_episode_records": 12144,
+  "physical_episode_records": 9675,
+  "certified_reused_records": 2469,
+  "completed_cache_records": 12144,
+  "safety_checks_passed": true,
+  "reuse_validation_episodes": 24,
+  "cpu_seconds_recorded": 6033.699730908001,
+  "final_test_evaluated": false,
+  "teammate_commit": "f7240040f2b88a3a02462c3c78eb68c66a4cc9a0",
+  "limits": [
+    "One optimizer seed; 30 calls/fit; pilot only, no convergence or superiority claim.",
+    "Fair means overdue-entry priority, not a new BO/PSO optimizer.",
+    "Entry wait sums all local-zone queue waits per robot; thresholds apply to each local queue.",
+    "Bootstrap intervals are exploratory and unadjusted; development is not final test.",
+    "Shared initial candidates were selected on main training data; historical preparation cost is separate.",
+    "Environment interruption and cache-prefix recovery: original unpersisted-attempt CPU cost is unavailable; see cache_recovery.json."
+  ],
+  "recovered_cache_files": 38,
+  "recovered_episode_rows": 137,
+  "recovered_training_objectives_verified": 270,
+  "recorded_cpu_is_end_to_end_cost": false
+}
