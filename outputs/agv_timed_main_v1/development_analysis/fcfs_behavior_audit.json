@@ -1,0 +1,69 @@
+{
+  "audited_episodes": 12,
+  "legacy_source": "rware/agv_multicross_policy_simulation.py",
+  "legacy_rule": "queue[0] selected; break when blocked",
+  "conclusion": "Current strict_fcfs matches head-of-line rule in saved predecessor; full equivalence to original capstone code is not established.",
+  "final_test_accessed": false,
+  "aggregated_checks": [
+    {
+      "layout": "single",
+      "policy": "fcfs",
+      "audited_episodes": 2,
+      "decisions": 16888,
+      "bypass_admissions": 9,
+      "blocked_head_with_other_eligible_decisions": 9,
+      "stored_makespan_exact": true,
+      "safety_checks_passed": true
+    },
+    {
+      "layout": "single",
+      "policy": "strict_fcfs",
+      "audited_episodes": 2,
+      "decisions": 19116,
+      "bypass_admissions": 0,
+      "blocked_head_with_other_eligible_decisions": 3652,
+      "stored_makespan_exact": true,
+      "safety_checks_passed": true
+    },
+    {
+      "layout": "double",
+      "policy": "fcfs",
+      "audited_episodes": 2,
+      "decisions": 16094,
+      "bypass_admissions": 16,
+      "blocked_head_with_other_eligible_decisions": 16,
+      "stored_makespan_exact": true,
+      "safety_checks_passed": true
+    },
+    {
+      "layout": "double",
+      "policy": "strict_fcfs",
+      "audited_episodes": 2,
+      "decisions": 20518,
+      "bypass_admissions": 0,
+      "blocked_head_with_other_eligible_decisions": 5324,
+      "stored_makespan_exact": true,
+      "safety_checks_passed": true
+    },
+    {
+      "layout": "multi",
+      "policy": "fcfs",
+      "audited_episodes": 2,
+      "decisions": 27571,
+      "bypass_admissions": 12,
+      "blocked_head_with_other_eligible_decisions": 12,
+      "stored_makespan_exact": true,
+      "safety_checks_passed": true
+    },
+    {
+      "layout": "multi",
+      "policy": "strict_fcfs",
+      "audited_episodes": 2,
+      "decisions": 28463,
+      "bypass_admissions": 0,
+      "blocked_head_with_other_eligible_decisions": 3672,
+      "stored_makespan_exact": true,
+      "safety_checks_passed": true
+    }
+  ]
+}

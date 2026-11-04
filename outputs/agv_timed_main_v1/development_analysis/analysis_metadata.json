@@ -1,0 +1,25 @@
+{
+  "manifest_sha256": "d8ffbb597c26f5d655a8be18b50ccbc53d2b1931fe2687716eb0219eeeabb429",
+  "analysis_seed": 20261104,
+  "bootstrap_replicates": 20000,
+  "paired_scenarios_per_layout": 48,
+  "condition_cells": 12,
+  "replicates_per_cell": 4,
+  "optimizer_seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "final_test_accessed": false,
+  "final_sample_sizes_locked": false,
+  "limitations": [
+    "Development-only exploratory analysis after observing these data.",
+    "Unadjusted intervals across 36 contrasts; no confirmatory significance claim.",
+    "Intervals condition on five fitted policies and fixed cell mixture; do not cover new training draws.",
+    "Means across optimizer seeds are paired within each scenario; effective scenario n is 48, not 240.",
+    "A proposed 15-comparison final family and practical effect size require explicit protocol lock.",
+    "Training step size and budget adequacy require additional analysis; small seed SD is not proof of convergence."
+  ]
+}
