@@ -1,0 +1,20 @@
+{
+  "evaluation": 42,
+  "source": "pso_update",
+  "vector": [
+    -0.010498652422617324,
+    -0.9077922877262615,
+    -0.3901406679770579,
+    -0.15360078070258826
+  ],
+  "objective": 131.34666666666666,
+  "incomplete": 0,
+  "cache_hit": false,
+  "layout": "single",
+  "seed": 303,
+  "method": "pso",
+  "charged_calibration_calls": 24,
+  "charged_search_calls": 72,
+  "total_charged_objectives": 96,
+  "split": "main_train"
+}
