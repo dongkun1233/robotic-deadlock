@@ -1,0 +1,947 @@
+{
+  "config": {
+    "manifest_sha256": "d8ffbb597c26f5d655a8be18b50ccbc53d2b1931fe2687716eb0219eeeabb429",
+    "layout": "multi",
+    "seed": 404,
+    "method": "basic",
+    "initial_weights_sha256": "8b6c43d3b0ef2990845a3957e913141fbb2d61c13565e62497069bee0f2b031d"
+  },
+  "trials": [
+    {
+      "evaluation": 1,
+      "source": "shared_initial",
+      "vector": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objective": 141.19416666666666,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 2,
+      "source": "shared_initial",
+      "vector": [
+        0.43314808182420994,
+        0.346518465459368,
+        0.519777698189052,
+        0.6497221227363149
+      ],
+      "objective": 141.66583333333332,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 3,
+      "source": "shared_initial",
+      "vector": [
+        0.4934679429111029,
+        -0.5594797575321178,
+        0.6659099048395886,
+        -0.005982379745334433
+      ],
+      "objective": 141.25,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 4,
+      "source": "shared_initial",
+      "vector": [
+        0.3692764313564469,
+        -0.33452823204784604,
+        -0.8666295957008633,
+        -0.026056152113230063
+      ],
+      "objective": 141.25416666666666,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 5,
+      "source": "shared_initial",
+      "vector": [
+        0.6791799031611782,
+        0.13346798088310002,
+        -0.6610085905087306,
+        0.2897733605675689
+      ],
+      "objective": 141.2575,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 6,
+      "source": "shared_initial",
+      "vector": [
+        0.87831625427201,
+        0.19759168552034403,
+        0.2542064421949454,
+        -0.3534079343215193
+      ],
+      "objective": 141.4225,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 7,
+      "source": "random_search",
+      "vector": [
+        0.5051385601682538,
+        0.09223584556926247,
+        -0.8295160955470386,
+        0.2196147332299518
+      ],
+      "objective": 141.37916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 8,
+      "source": "random_search",
+      "vector": [
+        0.10991598730817606,
+        0.9840944219271051,
+        0.13299636783564506,
+        0.04229196860577166
+      ],
+      "objective": 142.82583333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 9,
+      "source": "random_search",
+      "vector": [
+        -0.28225402139344363,
+        -0.6843873240188619,
+        0.06824605441594081,
+        0.6687967809328834
+      ],
+      "objective": 142.27166666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 10,
+      "source": "random_search",
+      "vector": [
+        0.6740843758423504,
+        -0.43812384524780373,
+        -0.4521803363737735,
+        0.3862521117966977
+      ],
+      "objective": 141.07083333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 11,
+      "source": "random_search",
+      "vector": [
+        0.449224601801152,
+        0.20905357880008713,
+        -0.7762352529366768,
+        0.3898110958218166
+      ],
+      "objective": 141.305,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 12,
+      "source": "random_search",
+      "vector": [
+        -0.49180459571798785,
+        0.5573885570454948,
+        0.46790460530767974,
+        -0.47802878201764404
+      ],
+      "objective": 142.81666666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 13,
+      "source": "random_search",
+      "vector": [
+        -0.12723857637256936,
+        -0.039096223426327896,
+        -0.9694574818472488,
+        -0.20599519627134943
+      ],
+      "objective": 143.32833333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 14,
+      "source": "random_search",
+      "vector": [
+        0.5498142007395489,
+        0.41179931224022776,
+        0.6424216043231115,
+        -0.3397354167621124
+      ],
+      "objective": 141.54,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 15,
+      "source": "random_search",
+      "vector": [
+        -0.0631742290015093,
+        0.5344484458316991,
+        0.4555005416174534,
+        0.7091495837440454
+      ],
+      "objective": 142.93,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 16,
+      "source": "random_search",
+      "vector": [
+        -0.5338716571424782,
+        -0.37018203654326926,
+        -0.5391210471241802,
+        -0.5359988899879824
+      ],
+      "objective": 144.48583333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 17,
+      "source": "random_search",
+      "vector": [
+        0.5484225763246652,
+        0.4914577956687204,
+        0.4127153876131193,
+        -0.5360670869221608
+      ],
+      "objective": 141.58333333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 18,
+      "source": "random_search",
+      "vector": [
+        -0.7615987187363203,
+        -0.5102245605275524,
+        -0.15738574720896,
+        -0.3672438100623872
+      ],
+      "objective": 144.56416666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 19,
+      "source": "random_search",
+      "vector": [
+        0.5571076833105721,
+        -0.06014460923921696,
+        -0.5715100220748807,
+        0.5994914093160623
+      ],
+      "objective": 141.2625,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 20,
+      "source": "random_search",
+      "vector": [
+        0.16066158612971762,
+        -0.6751305683240705,
+        -0.36839961825071144,
+        -0.6186018846798245
+      ],
+      "objective": 142.11083333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 21,
+      "source": "random_search",
+      "vector": [
+        0.6547162953924675,
+        0.06970064013910732,
+        0.7468916154977677,
+        -0.0929586360210628
+      ],
+      "objective": 141.61833333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 22,
+      "source": "random_search",
+      "vector": [
+        -0.2943871335914706,
+        -0.7202751302402266,
+        -0.22669679708390245,
+        0.5857887968586651
+      ],
+      "objective": 142.27166666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 23,
+      "source": "random_search",
+      "vector": [
+        0.4201313617774709,
+        -0.09978634997385832,
+        0.6934700818609552,
+        -0.576742203045401
+      ],
+      "objective": 141.26666666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 24,
+      "source": "random_search",
+      "vector": [
+        -0.25094758313803994,
+        0.595433025235545,
+        -0.6780904573152996,
+        -0.35025441421051545
+      ],
+      "objective": 142.6475,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 25,
+      "source": "random_search",
+      "vector": [
+        0.44732183023452665,
+        0.12493767121929954,
+        -0.7802511576997114,
+        -0.4189294563696748
+      ],
+      "objective": 141.305,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 26,
+      "source": "random_search",
+      "vector": [
+        0.4566231604958804,
+        -0.32712132718492837,
+        -0.6282626221067175,
+        -0.5383056792038484
+      ],
+      "objective": 141.10583333333332,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 27,
+      "source": "random_search",
+      "vector": [
+        -0.41981958023543514,
+        -0.5210160153651492,
+        0.29500820381638165,
+        0.6821026253174794
+      ],
+      "objective": 142.62166666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 28,
+      "source": "random_search",
+      "vector": [
+        -0.6727706145629674,
+        -0.19871254478979478,
+        -0.437871470946464,
+        0.562282490973097
+      ],
+      "objective": 143.51583333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 29,
+      "source": "random_search",
+      "vector": [
+        -0.425110649423768,
+        -0.5158283078145258,
+        0.6721111931664523,
+        -0.3185414205783495
+      ],
+      "objective": 142.97416666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 30,
+      "source": "random_search",
+      "vector": [
+        0.21936126763339986,
+        -0.047586499003190195,
+        -0.6630092673660251,
+        -0.7141672568535008
+      ],
+      "objective": 141.67083333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 31,
+      "source": "random_search",
+      "vector": [
+        0.5964501372494807,
+        0.5108933693719954,
+        -0.04491820742898708,
+        -0.617428176833688
+      ],
+      "objective": 141.57500000000002,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 32,
+      "source": "random_search",
+      "vector": [
+        -0.6661239671446996,
+        0.5028211480749277,
+        -0.37277141434215827,
+        -0.4055751793359226
+      ],
+      "objective": 142.65583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 33,
+      "source": "random_search",
+      "vector": [
+        -0.1946759294552116,
+        0.7543483897396152,
+        -0.3448875230583027,
+        0.5235574331691872
+      ],
+      "objective": 142.73833333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 34,
+      "source": "random_search",
+      "vector": [
+        0.2617832799677316,
+        0.20558175902266426,
+        0.6268737692785561,
+        0.7044394452875129
+      ],
+      "objective": 141.74,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 35,
+      "source": "random_search",
+      "vector": [
+        -0.4910854719053847,
+        -0.14391254676544704,
+        -0.6286436619501425,
+        0.58560343617235
+      ],
+      "objective": 143.47666666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 36,
+      "source": "random_search",
+      "vector": [
+        -0.5971474720850963,
+        -0.7169365807833763,
+        -0.34383199483585325,
+        -0.10581301925669712
+      ],
+      "objective": 142.97416666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 37,
+      "source": "random_search",
+      "vector": [
+        0.22655044762846063,
+        -0.7499478105537055,
+        -0.540093307168642,
+        0.3074937327437528
+      ],
+      "objective": 142.0325,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 38,
+      "source": "random_search",
+      "vector": [
+        0.8159257087448384,
+        0.4742164288426476,
+        -0.26145182963916747,
+        0.2025511224439179
+      ],
+      "objective": 141.37916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 39,
+      "source": "random_search",
+      "vector": [
+        -0.6581700717085449,
+        0.5112168429064791,
+        0.5525396101230002,
+        -0.013018274886629967
+      ],
+      "objective": 142.65583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 40,
+      "source": "random_search",
+      "vector": [
+        -0.061397417648359716,
+        0.44676779589939986,
+        -0.6977764435613956,
+        -0.556540140927962
+      ],
+      "objective": 142.6475,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 41,
+      "source": "random_search",
+      "vector": [
+        0.044090701320699616,
+        0.6710542892638378,
+        0.6644064417468019,
+        0.3260463633948521
+      ],
+      "objective": 142.82583333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 42,
+      "source": "random_search",
+      "vector": [
+        0.5663786859101253,
+        -0.6477491169965299,
+        -0.43175137274142783,
+        -0.2706049107330247
+      ],
+      "objective": 141.05416666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 43,
+      "source": "random_search",
+      "vector": [
+        0.7308978060104392,
+        0.36943355209412754,
+        0.34617357378750835,
+        0.4576801334637832
+      ],
+      "objective": 141.4225,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 44,
+      "source": "random_search",
+      "vector": [
+        -0.6715975503148398,
+        -0.165099084116015,
+        -0.6792938973954034,
+        -0.24547672760675784
+      ],
+      "objective": 143.32833333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 45,
+      "source": "random_search",
+      "vector": [
+        -0.03553947752353824,
+        -0.6436684202605297,
+        0.6357664556264693,
+        -0.4245337727399608
+      ],
+      "objective": 142.31083333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 46,
+      "source": "random_search",
+      "vector": [
+        -0.6744427416978678,
+        0.2493481518386869,
+        0.3212295457877791,
+        0.6162500030496321
+      ],
+      "objective": 143.29916666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 47,
+      "source": "random_search",
+      "vector": [
+        0.6738283961455196,
+        -0.395697509636556,
+        0.6235679167320308,
+        -0.023277169885094554
+      ],
+      "objective": 141.35333333333332,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 48,
+      "source": "random_search",
+      "vector": [
+        -0.5212948945499597,
+        0.36074812775538456,
+        -0.5469744603224477,
+        0.5467461577296161
+      ],
+      "objective": 142.65583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 49,
+      "source": "random_search",
+      "vector": [
+        -0.6605077732084413,
+        0.3160163722445993,
+        -0.04502511091247824,
+        0.6795850744328543
+      ],
+      "objective": 143.29916666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 50,
+      "source": "random_search",
+      "vector": [
+        0.3161817456781899,
+        0.5966371140364457,
+        -0.6284634914456525,
+        -0.386117725278307
+      ],
+      "objective": 142.665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 51,
+      "source": "random_search",
+      "vector": [
+        -0.6420901943386643,
+        0.626847686303711,
+        -0.3554499220214183,
+        0.26160564490237587
+      ],
+      "objective": 142.65583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 52,
+      "source": "random_search",
+      "vector": [
+        -0.6758942501745685,
+        0.04570802347606441,
+        -0.6622233957047431,
+        0.32021541710565526
+      ],
+      "objective": 142.87666666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 53,
+      "source": "random_search",
+      "vector": [
+        0.33271101827140004,
+        -0.6645385930788932,
+        -0.3930297346824992,
+        -0.5414974277731498
+      ],
+      "objective": 142.11083333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 54,
+      "source": "random_search",
+      "vector": [
+        0.4713694090502004,
+        0.4897060681094923,
+        -0.49521223453093044,
+        -0.5410764177445629
+      ],
+      "objective": 142.20000000000002,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 55,
+      "source": "random_search",
+      "vector": [
+        0.20417820842423112,
+        0.8214304478177455,
+        -0.4936792051263893,
+        -0.19960992216917875
+      ],
+      "objective": 142.86083333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 56,
+      "source": "random_search",
+      "vector": [
+        -0.576535496926907,
+        0.35159232545585317,
+        -0.6146502276488586,
+        -0.4076699095039959
+      ],
+      "objective": 142.65583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 57,
+      "source": "random_search",
+      "vector": [
+        -0.46363587997907163,
+        0.026809179258549077,
+        -0.6687945692097614,
+        -0.5805487601390985
+      ],
+      "objective": 142.86416666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 58,
+      "source": "random_search",
+      "vector": [
+        0.4921901773915614,
+        -0.46388137923493894,
+        -0.3596974644014627,
+        -0.6427912797957923
+      ],
+      "objective": 141.40666666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 59,
+      "source": "random_search",
+      "vector": [
+        -0.6508992031983091,
+        0.14445459519631232,
+        -0.73301739718118,
+        -0.13471671252002787
+      ],
+      "objective": 142.93,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 60,
+      "source": "random_search",
+      "vector": [
+        -0.20942897887934056,
+        0.9039048229203253,
+        0.2802165956639298,
+        -0.24611833215234044
+      ],
+      "objective": 142.73,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 61,
+      "source": "random_search",
+      "vector": [
+        0.9522024483661499,
+        -0.27689762233193455,
+        -0.09318364832290352,
+        -0.08919087261409857
+      ],
+      "objective": 141.22333333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 62,
+      "source": "random_search",
+      "vector": [
+        0.8394238200056302,
+        -0.008772256162047767,
+        -0.3816263517727106,
+        0.38684884071382963
+      ],
+      "objective": 141.17333333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 63,
+      "source": "random_search",
+      "vector": [
+        -0.5850728375924934,
+        0.24972039176173574,
+        -0.7196031513410095,
+        0.2783896643733765
+      ],
+      "objective": 142.93,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 64,
+      "source": "random_search",
+      "vector": [
+        -0.21859544603278463,
+        0.4172897529960663,
+        -0.6790543854301125,
+        0.5630012741072102
+      ],
+      "objective": 142.86,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 65,
+      "source": "random_search",
+      "vector": [
+        -0.03633863188843587,
+        -0.3565118145884845,
+        0.7063171876692474,
+        0.6104873956883206
+      ],
+      "objective": 142.27166666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 66,
+      "source": "random_search",
+      "vector": [
+        0.014207953369645773,
+        0.3774979172923631,
+        0.8894548012194585,
+        0.2572228860125551
+      ],
+      "objective": 142.82583333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 67,
+      "source": "random_search",
+      "vector": [
+        0.7053904042802802,
+        -0.1326332122835012,
+        0.26317187992723323,
+        0.644649804284643
+      ],
+      "objective": 141.46666666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 68,
+      "source": "random_search",
+      "vector": [
+        -0.050860538882789845,
+        0.5164074468513717,
+        0.5831852693230603,
+        -0.625005196830866
+      ],
+      "objective": 142.73,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 69,
+      "source": "random_search",
+      "vector": [
+        0.837534437340987,
+        0.16215373744745926,
+        -0.3492634386010812,
+        0.38763034215123765
+      ],
+      "objective": 141.45333333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 70,
+      "source": "random_search",
+      "vector": [
+        0.1991124708528281,
+        0.6040015774088022,
+        -0.5523774494187484,
+        0.5389020985412825
+      ],
+      "objective": 142.7825,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 71,
+      "source": "random_search",
+      "vector": [
+        -0.6283612237543351,
+        -0.3615052460832939,
+        -0.0229364535588496,
+        -0.6884403014309622
+      ],
+      "objective": 144.1375,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 72,
+      "source": "random_search",
+      "vector": [
+        -0.4741786594255529,
+        0.4781232418693807,
+        0.705800789959275,
+        0.21999547591385224
+      ],
+      "objective": 142.6475,
+      "incomplete": 0,
+      "cache_hit": false
+    }
+  ]
+}
