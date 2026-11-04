@@ -1,0 +1,947 @@
+{
+  "config": {
+    "manifest_sha256": "d8ffbb597c26f5d655a8be18b50ccbc53d2b1931fe2687716eb0219eeeabb429",
+    "layout": "multi",
+    "seed": 101,
+    "method": "bo",
+    "initial_weights_sha256": "8b6c43d3b0ef2990845a3957e913141fbb2d61c13565e62497069bee0f2b031d"
+  },
+  "trials": [
+    {
+      "evaluation": 1,
+      "source": "shared_initial",
+      "vector": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objective": 141.19416666666666,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 2,
+      "source": "shared_initial",
+      "vector": [
+        0.43314808182420994,
+        0.346518465459368,
+        0.519777698189052,
+        0.6497221227363149
+      ],
+      "objective": 141.66583333333332,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 3,
+      "source": "shared_initial",
+      "vector": [
+        0.4934679429111029,
+        -0.5594797575321178,
+        0.6659099048395886,
+        -0.005982379745334433
+      ],
+      "objective": 141.25,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 4,
+      "source": "shared_initial",
+      "vector": [
+        0.3692764313564469,
+        -0.33452823204784604,
+        -0.8666295957008633,
+        -0.026056152113230063
+      ],
+      "objective": 141.25416666666666,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 5,
+      "source": "shared_initial",
+      "vector": [
+        0.6791799031611782,
+        0.13346798088310002,
+        -0.6610085905087306,
+        0.2897733605675689
+      ],
+      "objective": 141.2575,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 6,
+      "source": "shared_initial",
+      "vector": [
+        0.87831625427201,
+        0.19759168552034403,
+        0.2542064421949454,
+        -0.3534079343215193
+      ],
+      "objective": 141.4225,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 7,
+      "source": "gp_lcb",
+      "vector": [
+        0.7474355246902816,
+        -0.5260321743443075,
+        -0.24602466055242866,
+        0.32264865470915216
+      ],
+      "objective": 141.2275,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 8,
+      "source": "gp_lcb",
+      "vector": [
+        -0.47811764512687993,
+        -0.612741229352469,
+        0.08542311067541579,
+        -0.6234216834795593
+      ],
+      "objective": 142.69583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 9,
+      "source": "gp_lcb",
+      "vector": [
+        -0.29008200224213787,
+        0.010462524518885139,
+        -0.736824200155899,
+        0.6106005778088517
+      ],
+      "objective": 142.92000000000002,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 10,
+      "source": "gp_lcb",
+      "vector": [
+        0.6277187251849149,
+        0.22379757158746402,
+        -0.5574357923490705,
+        -0.4951254249298286
+      ],
+      "objective": 141.175,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 11,
+      "source": "gp_lcb",
+      "vector": [
+        0.7395417346422153,
+        -0.08996122399096737,
+        -0.6454129474528705,
+        -0.16860346426046033
+      ],
+      "objective": 140.94916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 12,
+      "source": "gp_lcb",
+      "vector": [
+        0.5925961776735694,
+        -0.5324308068569903,
+        -0.5161807699886719,
+        -0.3144910472655643
+      ],
+      "objective": 141.40666666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 13,
+      "source": "gp_lcb",
+      "vector": [
+        0.005834034455393513,
+        -0.04656359633490338,
+        0.9763837296414904,
+        -0.2108852959068183
+      ],
+      "objective": 142.1625,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 14,
+      "source": "gp_lcb",
+      "vector": [
+        0.6114122125859945,
+        0.10455540492108764,
+        -0.7569372026897739,
+        -0.20564373267052463
+      ],
+      "objective": 141.305,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 15,
+      "source": "gp_lcb",
+      "vector": [
+        0.3707120774757262,
+        -0.3699061712982434,
+        0.6157945237864964,
+        0.5886757040371786
+      ],
+      "objective": 141.6275,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 16,
+      "source": "gp_lcb",
+      "vector": [
+        0.7421562572186938,
+        -0.18949261555023672,
+        -0.6021594105983168,
+        0.22516812108057815
+      ],
+      "objective": 141.18416666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 17,
+      "source": "gp_lcb",
+      "vector": [
+        0.6781679827423047,
+        0.7056432242862848,
+        -0.03945978258065093,
+        0.20149132180016271
+      ],
+      "objective": 141.87833333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 18,
+      "source": "gp_lcb",
+      "vector": [
+        0.9061088378605275,
+        0.07159568221743078,
+        -0.26474796009829354,
+        -0.32210145895766645
+      ],
+      "objective": 141.33583333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 19,
+      "source": "gp_lcb",
+      "vector": [
+        0.8210136694111605,
+        -0.3256432629070321,
+        0.04670444066235412,
+        0.466595879949341
+      ],
+      "objective": 141.26666666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 20,
+      "source": "gp_lcb",
+      "vector": [
+        0.7791296776443785,
+        -0.1606734614518665,
+        0.5991290142610746,
+        0.09047324725793679
+      ],
+      "objective": 141.50583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 21,
+      "source": "gp_lcb",
+      "vector": [
+        -0.046450609330243184,
+        0.16387587069473317,
+        -0.33417924272686195,
+        -0.9269904388004189
+      ],
+      "objective": 142.6475,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 22,
+      "source": "gp_lcb",
+      "vector": [
+        -0.22606204620608,
+        -0.8523263660764994,
+        0.47114033698571944,
+        -0.021505809004357494
+      ],
+      "objective": 142.31083333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 23,
+      "source": "gp_lcb",
+      "vector": [
+        0.5079065332108234,
+        -0.1925802893664874,
+        -0.7185642421722536,
+        -0.4342916249948846
+      ],
+      "objective": 141.10583333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 24,
+      "source": "gp_lcb",
+      "vector": [
+        0.7165575430867346,
+        0.33152370108462603,
+        -0.23591841038460007,
+        0.5665508156434491
+      ],
+      "objective": 141.37916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 25,
+      "source": "gp_lcb",
+      "vector": [
+        0.68090710399798,
+        -0.6902693598884242,
+        0.2176367546716335,
+        0.11192841256941068
+      ],
+      "objective": 141.5325,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 26,
+      "source": "gp_lcb",
+      "vector": [
+        0.4699763426247868,
+        0.5911916938167604,
+        0.27086413450289776,
+        -0.5968645065465821
+      ],
+      "objective": 142.26833333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 27,
+      "source": "gp_lcb",
+      "vector": [
+        0.6893842058469871,
+        -0.2271522111534363,
+        -0.6734058614127141,
+        -0.14027057963744272
+      ],
+      "objective": 140.98833333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 28,
+      "source": "gp_lcb",
+      "vector": [
+        0.2861775057558455,
+        -0.7518255953707399,
+        -0.5795523530065423,
+        0.13030648283710144
+      ],
+      "objective": 142.0325,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 29,
+      "source": "gp_lcb",
+      "vector": [
+        0.8590552416207432,
+        -0.023542531171549544,
+        -0.5112434422226033,
+        -0.00999919268475092
+      ],
+      "objective": 141.17333333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 30,
+      "source": "gp_lcb",
+      "vector": [
+        0.049328639837238,
+        -0.4173274825904323,
+        0.6981188272101179,
+        -0.579684880483621
+      ],
+      "objective": 142.07166666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 31,
+      "source": "gp_lcb",
+      "vector": [
+        0.6974829240127841,
+        -0.12623782183499135,
+        -0.5738313155531437,
+        -0.41024286019318124
+      ],
+      "objective": 140.94916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 32,
+      "source": "gp_lcb",
+      "vector": [
+        0.4684418688341421,
+        -0.5206657319812504,
+        -0.1912891280577106,
+        0.6876611669641713
+      ],
+      "objective": 141.215,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 33,
+      "source": "gp_lcb",
+      "vector": [
+        0.4261494658902177,
+        -0.179065217448561,
+        -0.4388307720311781,
+        0.7705581315774314
+      ],
+      "objective": 141.30166666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 34,
+      "source": "gp_lcb",
+      "vector": [
+        0.6434303509036734,
+        -0.11393866615665948,
+        -0.6835779795974182,
+        -0.3251715081305998
+      ],
+      "objective": 141.06666666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 35,
+      "source": "gp_lcb",
+      "vector": [
+        -0.1596862402808733,
+        -0.4025680556288963,
+        -0.6753229179151279,
+        -0.5969742220487635
+      ],
+      "objective": 142.34583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 36,
+      "source": "gp_lcb",
+      "vector": [
+        0.3147792704861684,
+        -0.03619443600589361,
+        -0.14830586552405278,
+        -0.9368080614115
+      ],
+      "objective": 141.55333333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 37,
+      "source": "gp_lcb",
+      "vector": [
+        0.3713760885713244,
+        0.5194046052758309,
+        0.14694513133503234,
+        0.7554507166140304
+      ],
+      "objective": 142.19833333333332,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 38,
+      "source": "gp_lcb",
+      "vector": [
+        0.2649884258668538,
+        -0.29642190989819606,
+        -0.6170569984008212,
+        -0.679084564847031
+      ],
+      "objective": 141.32416666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 39,
+      "source": "gp_lcb",
+      "vector": [
+        -0.27386083630786556,
+        -0.5819997304156743,
+        0.7601762843800395,
+        -0.091698270425327
+      ],
+      "objective": 142.31083333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 40,
+      "source": "gp_lcb",
+      "vector": [
+        0.3380429143791051,
+        0.6400471321386165,
+        -0.3333144455369454,
+        -0.6041259281603563
+      ],
+      "objective": 142.63833333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 41,
+      "source": "gp_lcb",
+      "vector": [
+        0.6377464042108191,
+        0.32299672321491607,
+        0.11816994899539125,
+        0.6891940973797034
+      ],
+      "objective": 141.49666666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 42,
+      "source": "gp_lcb",
+      "vector": [
+        -0.006108716971676813,
+        0.44127944070220154,
+        0.8506001601444938,
+        0.28585749308470737
+      ],
+      "objective": 142.73,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 43,
+      "source": "gp_lcb",
+      "vector": [
+        0.8733765869312001,
+        -0.34067873817891486,
+        0.029940157974844027,
+        -0.34677791407999375
+      ],
+      "objective": 141.22333333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 44,
+      "source": "gp_lcb",
+      "vector": [
+        0.7468851402109005,
+        0.417307481437305,
+        0.4503652033506075,
+        0.25531987168953946
+      ],
+      "objective": 141.4225,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 45,
+      "source": "gp_lcb",
+      "vector": [
+        0.6693367958523713,
+        -0.11645554992384062,
+        -0.4232898611385392,
+        -0.5993763859774033
+      ],
+      "objective": 140.98833333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 46,
+      "source": "gp_lcb",
+      "vector": [
+        0.8744237447608455,
+        -0.31720327638378637,
+        -0.3613260253378679,
+        -0.06487449008161571
+      ],
+      "objective": 141.22333333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 47,
+      "source": "gp_lcb",
+      "vector": [
+        0.9476694035492669,
+        -0.004007396749585903,
+        0.23990939915224233,
+        -0.21059468783964666
+      ],
+      "objective": 141.21666666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 48,
+      "source": "gp_lcb",
+      "vector": [
+        0.29247905427443194,
+        -0.3826997085581225,
+        -0.5755687077309837,
+        0.6608461232095924
+      ],
+      "objective": 141.25416666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 49,
+      "source": "gp_lcb",
+      "vector": [
+        0.17380986193087009,
+        -0.15889619232637803,
+        0.8524950601647031,
+        0.4666843733772643
+      ],
+      "objective": 141.45416666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 50,
+      "source": "gp_lcb",
+      "vector": [
+        0.7221581566361907,
+        0.443317364180236,
+        -0.5292532326075712,
+        -0.0429921759689254
+      ],
+      "objective": 141.175,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 51,
+      "source": "gp_lcb",
+      "vector": [
+        0.6481619417342962,
+        -0.21587390023887834,
+        -0.5546023311188212,
+        -0.4750797941403647
+      ],
+      "objective": 140.98833333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 52,
+      "source": "gp_lcb",
+      "vector": [
+        0.7622638756310598,
+        -0.12084793387967141,
+        -0.5664325170049661,
+        -0.2889701791956212
+      ],
+      "objective": 140.94916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 53,
+      "source": "gp_lcb",
+      "vector": [
+        0.7477984457922554,
+        -0.16973627305726774,
+        -0.5933690937231434,
+        -0.24474517501575324
+      ],
+      "objective": 140.98833333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 54,
+      "source": "gp_lcb",
+      "vector": [
+        0.45101114041129037,
+        0.06484438186548563,
+        0.5200021600524288,
+        -0.7224831561401266
+      ],
+      "objective": 141.26166666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 55,
+      "source": "gp_lcb",
+      "vector": [
+        0.6922923638792957,
+        -0.038187511788258216,
+        -0.5176527768900814,
+        -0.5013068914705102
+      ],
+      "objective": 140.93833333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 56,
+      "source": "gp_lcb",
+      "vector": [
+        -0.7080417680419963,
+        -0.5925695088275933,
+        0.2376727731003725,
+        -0.30174473457306195
+      ],
+      "objective": 144.26916666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 57,
+      "source": "gp_lcb",
+      "vector": [
+        0.5496732568537352,
+        0.473646509085194,
+        -0.46999495509499384,
+        0.5026161928514358
+      ],
+      "objective": 141.38333333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 58,
+      "source": "gp_lcb",
+      "vector": [
+        0.6175052453708356,
+        0.04304435654098351,
+        -0.4291279910219737,
+        -0.6577869127847723
+      ],
+      "objective": 141.13166666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 59,
+      "source": "gp_lcb",
+      "vector": [
+        0.7732097727588827,
+        0.0237158492266037,
+        -0.5485544085773347,
+        -0.31728893241962985
+      ],
+      "objective": 141.13166666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 60,
+      "source": "gp_lcb",
+      "vector": [
+        -0.36571749040285034,
+        0.040014230868309644,
+        0.4359100411280234,
+        -0.8213598569355722
+      ],
+      "objective": 142.97333333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 61,
+      "source": "gp_lcb",
+      "vector": [
+        -0.06394948496323438,
+        0.1085098052770814,
+        0.4632143579686912,
+        -0.877250559477348
+      ],
+      "objective": 142.9425,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 62,
+      "source": "gp_lcb",
+      "vector": [
+        -0.046309762959190204,
+        0.017994762923475047,
+        -0.08434066473958841,
+        0.995197591754158
+      ],
+      "objective": 143.29083333333332,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 63,
+      "source": "gp_lcb",
+      "vector": [
+        0.4796321181190139,
+        0.25764864673992055,
+        0.8281062644862285,
+        -0.13345493928821234
+      ],
+      "objective": 141.4225,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 64,
+      "source": "gp_lcb",
+      "vector": [
+        0.3800536616934052,
+        -0.3752343569216455,
+        0.2504400623597568,
+        -0.8074888028847675
+      ],
+      "objective": 141.58,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 65,
+      "source": "gp_lcb",
+      "vector": [
+        -0.14534451764567693,
+        -0.3059686703110316,
+        0.09759335801915815,
+        -0.9358064332162872
+      ],
+      "objective": 142.3975,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 66,
+      "source": "gp_lcb",
+      "vector": [
+        0.2599400094244064,
+        -0.5810946721504041,
+        0.7537200690105234,
+        0.16329798244199398
+      ],
+      "objective": 142.30666666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 67,
+      "source": "gp_lcb",
+      "vector": [
+        0.4287752663397849,
+        0.10985744217348205,
+        -0.6060968966961763,
+        -0.6608552528274335
+      ],
+      "objective": 141.74,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 68,
+      "source": "gp_lcb",
+      "vector": [
+        -0.02468248505227753,
+        -0.8577415981453717,
+        -0.19482401527989093,
+        -0.47509338956976527
+      ],
+      "objective": 142.31083333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 69,
+      "source": "gp_lcb",
+      "vector": [
+        0.45293522815371107,
+        -0.5849092334789405,
+        0.5371339924521116,
+        -0.4052381297963939
+      ],
+      "objective": 141.415,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 70,
+      "source": "gp_lcb",
+      "vector": [
+        0.7546904966975814,
+        -0.02346117222786642,
+        -0.01897918884649263,
+        -0.6553866171831566
+      ],
+      "objective": 141.17333333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 71,
+      "source": "gp_lcb",
+      "vector": [
+        0.16000205598980083,
+        -0.139391178695231,
+        -0.5960920299737259,
+        0.7743666658520325
+      ],
+      "objective": 141.3325,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 72,
+      "source": "gp_lcb",
+      "vector": [
+        0.4662867947846204,
+        -0.39169699880946857,
+        -0.701859475475829,
+        -0.36951774357659023
+      ],
+      "objective": 141.215,
+      "incomplete": 0,
+      "cache_hit": false
+    }
+  ]
+}
