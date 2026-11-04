@@ -1,0 +1,947 @@
+{
+  "config": {
+    "manifest_sha256": "d8ffbb597c26f5d655a8be18b50ccbc53d2b1931fe2687716eb0219eeeabb429",
+    "layout": "double",
+    "seed": 101,
+    "method": "pso",
+    "initial_weights_sha256": "8b6c43d3b0ef2990845a3957e913141fbb2d61c13565e62497069bee0f2b031d"
+  },
+  "trials": [
+    {
+      "evaluation": 1,
+      "source": "shared_initial",
+      "vector": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "objective": 140.08583333333334,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 2,
+      "source": "shared_initial",
+      "vector": [
+        0.43314808182420994,
+        0.346518465459368,
+        0.519777698189052,
+        0.6497221227363149
+      ],
+      "objective": 140.76833333333335,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 3,
+      "source": "shared_initial",
+      "vector": [
+        0.1507932669362226,
+        -0.9207983275272932,
+        0.3492446091593855,
+        -0.08613961715000308
+      ],
+      "objective": 139.18666666666667,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 4,
+      "source": "shared_initial",
+      "vector": [
+        0.5598246052910248,
+        -0.689191419591377,
+        -0.02461690629720228,
+        -0.4593534656413575
+      ],
+      "objective": 139.33083333333335,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 5,
+      "source": "shared_initial",
+      "vector": [
+        0.7362764571428853,
+        -0.5544865956164045,
+        0.06018801531918322,
+        0.38316967096938787
+      ],
+      "objective": 139.38166666666666,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 6,
+      "source": "shared_initial",
+      "vector": [
+        0.7109838734448005,
+        -0.6743219685527445,
+        -0.1783603966814413,
+        -0.08932739403015345
+      ],
+      "objective": 139.39000000000001,
+      "incomplete": 0,
+      "cache_hit": true
+    },
+    {
+      "evaluation": 7,
+      "source": "pso_update",
+      "vector": [
+        0.8177933074495166,
+        -0.4403502424728166,
+        0.2309131443952165,
+        -0.28980146650841115
+      ],
+      "objective": 140.205,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 8,
+      "source": "pso_update",
+      "vector": [
+        0.7429065875126547,
+        -0.006573785590543091,
+        0.35744717135309595,
+        0.5659311859802232
+      ],
+      "objective": 140.0425,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 9,
+      "source": "pso_update",
+      "vector": [
+        0.22985234310158528,
+        -0.8785880704019747,
+        0.40971502901240264,
+        -0.08593310141855712
+      ],
+      "objective": 139.065,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 10,
+      "source": "pso_update",
+      "vector": [
+        0.44442452042297703,
+        -0.7406628978139285,
+        0.27648718826384366,
+        -0.42126019533613074
+      ],
+      "objective": 139.14666666666668,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 11,
+      "source": "pso_update",
+      "vector": [
+        0.5858886473258613,
+        -0.7534827639409092,
+        0.29704324575330415,
+        0.027632001935852274
+      ],
+      "objective": 139.40083333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 12,
+      "source": "pso_update",
+      "vector": [
+        0.5674358354866553,
+        -0.7820232229068608,
+        -0.07425723257582612,
+        -0.24686456783043512
+      ],
+      "objective": 139.36583333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 13,
+      "source": "pso_update",
+      "vector": [
+        0.4605802375389009,
+        -0.7781635534756813,
+        0.3694704062641613,
+        -0.2140536094666602
+      ],
+      "objective": 139.63,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 14,
+      "source": "pso_update",
+      "vector": [
+        0.807993923405765,
+        -0.47659275859022904,
+        0.19159502643691664,
+        0.2886113442734915
+      ],
+      "objective": 140.03583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 15,
+      "source": "pso_update",
+      "vector": [
+        0.26951988268521276,
+        -0.8563912038914969,
+        0.43250238182741874,
+        -0.08303510371060768
+      ],
+      "objective": 139.065,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 16,
+      "source": "pso_update",
+      "vector": [
+        0.14512906082253527,
+        -0.8226791365168123,
+        0.5461478355119692,
+        -0.06212194306613252
+      ],
+      "objective": 138.92916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 17,
+      "source": "pso_update",
+      "vector": [
+        0.4277968008965026,
+        -0.7718038435903278,
+        0.44996327486514837,
+        0.13726534680882052
+      ],
+      "objective": 139.22583333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 18,
+      "source": "pso_update",
+      "vector": [
+        0.21913368893243695,
+        -0.9108653434381241,
+        0.277895912083023,
+        -0.2123172497602469
+      ],
+      "objective": 138.99083333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 19,
+      "source": "pso_update",
+      "vector": [
+        0.09263764470556425,
+        -0.8377414153498749,
+        0.5307188046935672,
+        -0.08913550434941962
+      ],
+      "objective": 138.72916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 20,
+      "source": "pso_update",
+      "vector": [
+        0.5265829437355748,
+        -0.7268968591004921,
+        0.4375123200414785,
+        -0.0539845293444214
+      ],
+      "objective": 139.24416666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 21,
+      "source": "pso_update",
+      "vector": [
+        0.12999738103748573,
+        -0.8577462479563788,
+        0.4920333381223301,
+        -0.07263091088748566
+      ],
+      "objective": 138.865,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 22,
+      "source": "pso_update",
+      "vector": [
+        -0.02767482629868431,
+        -0.77012042250303,
+        0.6234237051653817,
+        0.1322555203799049
+      ],
+      "objective": 139.12083333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 23,
+      "source": "pso_update",
+      "vector": [
+        0.30842638318205057,
+        -0.7426050370649463,
+        0.5918934267479964,
+        0.0554355161924475
+      ],
+      "objective": 139.0075,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 24,
+      "source": "pso_update",
+      "vector": [
+        -0.007341777967695592,
+        -0.8192173469346238,
+        0.5704233269929436,
+        -0.05870489587735058
+      ],
+      "objective": 139.46916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 25,
+      "source": "pso_update",
+      "vector": [
+        -0.10111029903217877,
+        -0.8172114660564305,
+        0.5670991540352861,
+        -0.01845742853123584
+      ],
+      "objective": 139.1125,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 26,
+      "source": "pso_update",
+      "vector": [
+        0.13703764722467418,
+        -0.7760525695498769,
+        0.5637260721562903,
+        -0.2473378420488869
+      ],
+      "objective": 138.70833333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 27,
+      "source": "pso_update",
+      "vector": [
+        0.03921438638616468,
+        -0.8356259095122048,
+        0.5436121138808307,
+        -0.06839181891331816
+      ],
+      "objective": 138.76833333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 28,
+      "source": "pso_update",
+      "vector": [
+        0.050432794548440726,
+        -0.8111251232657606,
+        0.5826550848291027,
+        0.006754240440671446
+      ],
+      "objective": 139.0075,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 29,
+      "source": "pso_update",
+      "vector": [
+        0.17583099757530052,
+        -0.7553546005199177,
+        0.6160250092873802,
+        -0.13797128577190865
+      ],
+      "objective": 138.72916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 30,
+      "source": "pso_update",
+      "vector": [
+        0.056262080485962186,
+        -0.7593991955451739,
+        0.6454019993458137,
+        -0.06003081996075312
+      ],
+      "objective": 138.72916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 31,
+      "source": "pso_update",
+      "vector": [
+        0.04332579988522667,
+        -0.8192670970265067,
+        0.5615267451668121,
+        -0.10775905185380916
+      ],
+      "objective": 138.76833333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 32,
+      "source": "pso_update",
+      "vector": [
+        -0.054493475730550814,
+        -0.7540963773771389,
+        0.5735387038009148,
+        -0.3153132886065004
+      ],
+      "objective": 139.46916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 33,
+      "source": "pso_update",
+      "vector": [
+        0.11554297070789095,
+        -0.7888303473481039,
+        0.5990708592708798,
+        -0.07423348701977353
+      ],
+      "objective": 138.7725,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 34,
+      "source": "pso_update",
+      "vector": [
+        0.29527801222742767,
+        -0.7849765818649364,
+        0.4952578851729395,
+        -0.22658836817605515
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 35,
+      "source": "pso_update",
+      "vector": [
+        0.06144838573878971,
+        -0.7684878200537821,
+        0.5566889787639975,
+        -0.3094316519714493
+      ],
+      "objective": 138.70833333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 36,
+      "source": "pso_update",
+      "vector": [
+        0.09421469633166511,
+        -0.70900081172772,
+        0.6628773813035711,
+        -0.22143851815049323
+      ],
+      "objective": 138.76833333333335,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 37,
+      "source": "pso_update",
+      "vector": [
+        0.2151530215485517,
+        -0.7952839676561493,
+        0.5206628344028802,
+        -0.22392588278084402
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 38,
+      "source": "pso_update",
+      "vector": [
+        0.24242665097685565,
+        -0.7481841488162929,
+        0.5558351955222028,
+        -0.269252732158802
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 39,
+      "source": "pso_update",
+      "vector": [
+        0.16123649737234205,
+        -0.7859993248132735,
+        0.5698588622309585,
+        -0.17739427962878168
+      ],
+      "objective": 138.72916666666666,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 40,
+      "source": "pso_update",
+      "vector": [
+        0.3407621910611918,
+        -0.7488712913617425,
+        0.4406796362315179,
+        -0.35899077471187035
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 41,
+      "source": "pso_update",
+      "vector": [
+        0.01887891799195813,
+        -0.7843241037114468,
+        0.5280840307958834,
+        -0.32497160369955563
+      ],
+      "objective": 139.03,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 42,
+      "source": "pso_update",
+      "vector": [
+        0.12545439864533095,
+        -0.7898601627444766,
+        0.5537771968053992,
+        -0.23176050886240684
+      ],
+      "objective": 138.70833333333334,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 43,
+      "source": "pso_update",
+      "vector": [
+        0.2979301382164849,
+        -0.769644774460267,
+        0.4912175276701909,
+        -0.27854962645441866
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 44,
+      "source": "pso_update",
+      "vector": [
+        0.359885985014948,
+        -0.7448732565653491,
+        0.5093771645592426,
+        -0.23702492204225775
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 45,
+      "source": "pso_update",
+      "vector": [
+        0.22649966889356585,
+        -0.7691317874513167,
+        0.5227980283441691,
+        -0.2895106476150693
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 46,
+      "source": "pso_update",
+      "vector": [
+        0.34388986347807493,
+        -0.801245453976257,
+        0.4540951341615248,
+        -0.18314773656870498
+      ],
+      "objective": 139.065,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 47,
+      "source": "pso_update",
+      "vector": [
+        0.18320737917046523,
+        -0.7930666476967527,
+        0.520652035980859,
+        -0.2576854787478536
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 48,
+      "source": "pso_update",
+      "vector": [
+        0.1963802011518263,
+        -0.8306336595442427,
+        0.4667399371452426,
+        -0.23159527478202657
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 49,
+      "source": "pso_update",
+      "vector": [
+        0.24971118966665043,
+        -0.7952880158480998,
+        0.5128381800668791,
+        -0.2053248515629562
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 50,
+      "source": "pso_update",
+      "vector": [
+        0.3397498885488992,
+        -0.7640663386128043,
+        0.49344909682673915,
+        -0.2393337257277159
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 51,
+      "source": "pso_update",
+      "vector": [
+        0.19511043278777002,
+        -0.7868540580105158,
+        0.5085168183984274,
+        -0.2901779726576327
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 52,
+      "source": "pso_update",
+      "vector": [
+        0.27545608023173124,
+        -0.7871317646947371,
+        0.529293209017318,
+        -0.15619293121031003
+      ],
+      "objective": 138.865,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 53,
+      "source": "pso_update",
+      "vector": [
+        0.2920005418497546,
+        -0.7562353586810519,
+        0.5263620388207417,
+        -0.25648931737688935
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 54,
+      "source": "pso_update",
+      "vector": [
+        0.19690353597676294,
+        -0.7890980385875741,
+        0.5385744878053501,
+        -0.2202062762554591
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 55,
+      "source": "pso_update",
+      "vector": [
+        0.16065633618819466,
+        -0.8097579565989177,
+        0.5312858248014619,
+        -0.19030755563655746
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 56,
+      "source": "pso_update",
+      "vector": [
+        0.225826083617968,
+        -0.7685001003473153,
+        0.5319251321344975,
+        -0.2747104467027677
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 57,
+      "source": "pso_update",
+      "vector": [
+        0.16416283600062256,
+        -0.7895408829255399,
+        0.5800701566449913,
+        -0.11486675252329125
+      ],
+      "objective": 138.73333333333332,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 58,
+      "source": "pso_update",
+      "vector": [
+        0.2335633313665484,
+        -0.7784720823350089,
+        0.5536985782575298,
+        -0.18123816292808073
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 59,
+      "source": "pso_update",
+      "vector": [
+        0.27034157415318116,
+        -0.7629804975779825,
+        0.5431603878224177,
+        -0.2230537753561574
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 60,
+      "source": "pso_update",
+      "vector": [
+        0.19980006033984804,
+        -0.7697173590894894,
+        0.5671836809639069,
+        -0.21428437892839622
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 61,
+      "source": "pso_update",
+      "vector": [
+        0.1266319150598397,
+        -0.8118762963332408,
+        0.5329015382627514,
+        -0.20208213196047423
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 62,
+      "source": "pso_update",
+      "vector": [
+        0.19093746786765317,
+        -0.7693805870417735,
+        0.5427590784404053,
+        -0.27750491602504457
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 63,
+      "source": "pso_update",
+      "vector": [
+        0.1875903198665823,
+        -0.8104307996561275,
+        0.542971606795486,
+        -0.11486350628032976
+      ],
+      "objective": 138.865,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 64,
+      "source": "pso_update",
+      "vector": [
+        0.21618832240808344,
+        -0.7892025264425163,
+        0.5400162111246208,
+        -0.19698851041047238
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 65,
+      "source": "pso_update",
+      "vector": [
+        0.238992164972744,
+        -0.7807951091716423,
+        0.5282309928527799,
+        -0.23283848643437433
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 66,
+      "source": "pso_update",
+      "vector": [
+        0.20424813252871962,
+        -0.7911476980250576,
+        0.5333548129855799,
+        -0.21886220261456713
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 67,
+      "source": "pso_update",
+      "vector": [
+        0.15988612308616734,
+        -0.8006669296631409,
+        0.5148530622691814,
+        -0.2613335410166867
+      ],
+      "objective": 138.90833333333333,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 68,
+      "source": "pso_update",
+      "vector": [
+        0.2367717615609595,
+        -0.7774787400531786,
+        0.5193919921877407,
+        -0.2640035987328431
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 69,
+      "source": "pso_update",
+      "vector": [
+        0.19847868473115585,
+        -0.7838839215433553,
+        0.5352494426369855,
+        -0.24421352012122002
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 70,
+      "source": "pso_update",
+      "vector": [
+        0.2303778019813457,
+        -0.7864153771738477,
+        0.5353828927366459,
+        -0.2045533697197381
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 71,
+      "source": "pso_update",
+      "vector": [
+        0.2534349130480554,
+        -0.781374953243211,
+        0.5175156065853046,
+        -0.23958615200620076
+      ],
+      "objective": 138.66916666666665,
+      "incomplete": 0,
+      "cache_hit": false
+    },
+    {
+      "evaluation": 72,
+      "source": "pso_update",
+      "vector": [
+        0.20518878231591345,
+        -0.8024046262059245,
+        0.5132162742300431,
+        -0.2250631807303817
+      ],
+      "objective": 138.86916666666667,
+      "incomplete": 0,
+      "cache_hit": false
+    }
+  ]
+}
