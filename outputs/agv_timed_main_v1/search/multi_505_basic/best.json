@@ -1,0 +1,20 @@
+{
+  "evaluation": 69,
+  "source": "random_search",
+  "vector": [
+    0.541181764790507,
+    -0.26867255442281224,
+    -0.47423712346941943,
+    -0.640340930037745
+  ],
+  "objective": 140.98833333333334,
+  "incomplete": 0,
+  "cache_hit": false,
+  "layout": "multi",
+  "seed": 505,
+  "method": "basic",
+  "charged_calibration_calls": 24,
+  "charged_search_calls": 72,
+  "total_charged_objectives": 96,
+  "split": "main_train"
+}
