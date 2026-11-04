@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "policies_per_layout": 19,
+  "independent_scenarios_per_layout": 48,
+  "retained_episode_records": 2736,
+  "final_test_evaluated": false,
+  "primary_comparison_family": 15,
+  "warmstart_best_scope": "descriptive separation of initialization and search effects"
+}

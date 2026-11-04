@@ -1,0 +1,15 @@
+{
+  "training_jobs": 45,
+  "training_evaluations": 3240,
+  "development_files": 57,
+  "development_rows": 2736,
+  "development_unique_scenarios": 144,
+  "development_missing_or_duplicate_records": 0,
+  "development_incomplete_or_safety_failed": 0,
+  "raw_gaps": 0,
+  "final_test_evaluated": false,
+  "replay_atol": 1.7763568394002505e-15,
+  "replay_note": "CPU-portable tolerance-based replay; not bitwise identical across CPUs",
+  "raw_publication": "No new per-scenario raw data, caches, archives, or binary files included. Previously published archives remain unchanged.",
+  "strict_fcfs_legacy_equivalence": "Not yet established against legacy capstone implementation."
+}
