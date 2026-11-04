@@ -1,0 +1,20 @@
+{
+  "evaluation": 3,
+  "source": "shared_initial",
+  "vector": [
+    0.16819991987726227,
+    -0.8778053641374717,
+    -0.4463869480502037,
+    -0.043648851705262316
+  ],
+  "objective": 131.78,
+  "incomplete": 0,
+  "cache_hit": true,
+  "layout": "single",
+  "seed": 505,
+  "method": "basic",
+  "charged_calibration_calls": 24,
+  "charged_search_calls": 72,
+  "total_charged_objectives": 96,
+  "split": "main_train"
+}
