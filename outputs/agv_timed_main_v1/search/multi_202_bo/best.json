@@ -1,0 +1,20 @@
+{
+  "evaluation": 53,
+  "source": "gp_lcb",
+  "vector": [
+    0.47247520421860323,
+    -0.3146565509543689,
+    -0.3093855119963181,
+    0.7629148322760975
+  ],
+  "objective": 140.79666666666668,
+  "incomplete": 0,
+  "cache_hit": false,
+  "layout": "multi",
+  "seed": 202,
+  "method": "bo",
+  "charged_calibration_calls": 24,
+  "charged_search_calls": 72,
+  "total_charged_objectives": 96,
+  "split": "main_train"
+}
