@@ -1,0 +1,2 @@
+# Install in addition to the unchanged original requirements.txt.
+scipy==1.17.0
